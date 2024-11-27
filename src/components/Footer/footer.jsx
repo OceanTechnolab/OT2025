@@ -32,7 +32,7 @@ const Footer = ({ hideBGCOLOR }) => {
                   <span className="icon pe-7s-call"></span>
                   <div className="cont">
                     <h6>Call Us</h6>
-                    <p>+87986451666</p>
+                    <p>+91 94277 02647</p>
                   </div>
                 </li>
               </ul>
