@@ -16,7 +16,7 @@ const PageHeader2 = ({ title, links }) => {
               <div className="links">
                 {links.map((item, index) => (
                   <React.Fragment key={item.id}>
-                    <Link href={item.url} >
+                    <Link href={item.url}>
                       {item.name}
                     </Link>
                     {index + 1 != links.length ? (

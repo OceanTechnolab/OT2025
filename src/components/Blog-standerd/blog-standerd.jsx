@@ -18,19 +18,15 @@ const BlogStanderd = ({ blogs }) => {
                 >
                   <div className="img">
                     <Link href={`/blog-details/blog-details-dark`}>
-                      <a>
-                        <img src={blogItem.image} alt="" />
-                      </a>
+                      <img src={blogItem.image} alt="" />
                     </Link>
                   </div>
                   <div className="content">
                     <div className="row justify-content-center">
                       <div className="col-10">
-                        <Link href={`/blog/blog-dark`}>
-                          <a className="date">
-                            <span className="num">{blogItem.date.day}</span>
-                            <span>{blogItem.date.month}</span>
-                          </a>
+                        <Link href={`/blog/blog-dark`} className="date">
+                          <span className="num">{blogItem.date.day}</span>
+                          <span>{blogItem.date.month}</span>
                         </Link>
                         <div className="tags">
                           {blogItem.tags.map((tag, index) => (
@@ -45,8 +41,8 @@ const BlogStanderd = ({ blogs }) => {
                           </Link>
                         </h4>
                         <p>{blogItem.content}</p>
-                        <Link href={`/blog-details/blog-details-dark`}>
-                          <a className="butn bord curve mt-30">Read More</a>
+                        <Link href={`/blog-details/blog-details-dark`} className="butn bord curve mt-30">
+                          Read More
                         </Link>
                       </div>
                     </div>
@@ -62,9 +58,7 @@ const BlogStanderd = ({ blogs }) => {
                 </span>
                 <span>
                   <Link href={`/blog/blog-dark`}>
-                    <a>
-                      <i className="fas fa-angle-right"></i>
-                    </a>
+                    <i className="fas fa-angle-right"></i>
                   </Link>
                 </span>
               </div>

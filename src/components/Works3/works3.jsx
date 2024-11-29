@@ -101,6 +101,8 @@ const Works3 = () => {
                         <h6>
                           <Link
                             href={`/works3/works3-dark`}
+                            className="wow cimgio"
+                            data-delay="500"
                           >
                             art &amp; illustration
                           </Link>
@@ -108,6 +110,8 @@ const Works3 = () => {
                         <h4>
                           <Link
                             href={`/project-details2/project-details2-dark`}
+                            className="wow cimgio"
+                            data-delay="500"
                           >
                             Inspiring new space
                           </Link>
@@ -127,6 +131,8 @@ const Works3 = () => {
                         <h6>
                           <Link
                             href={`/works3/works3-dark`}
+                            className="wow cimgio"
+                            data-delay="500"
                           >
                             art &amp; illustration
                           </Link>
@@ -134,6 +140,8 @@ const Works3 = () => {
                         <h4>
                           <Link
                             href={`/project-details2/project-details2-dark`}
+                            className="wow cimgio"
+                            data-delay="500"
                           >
                             Inspiring new space
                           </Link>
@@ -153,6 +161,8 @@ const Works3 = () => {
                         <h6>
                           <Link
                             href={`/works3/works3-dark`}
+                            className="wow cimgio"
+                            data-delay="500"
                           >
                             art &amp; illustration
                           </Link>
@@ -160,6 +170,8 @@ const Works3 = () => {
                         <h4>
                           <Link
                             href={`/project-details2/project-details2-dark`}
+                            className="wow cimgio"
+                            data-delay="500"
                           >
                             Inspiring new space
                           </Link>
@@ -179,6 +191,8 @@ const Works3 = () => {
                         <h6>
                           <Link
                             href={`/works3/works3-dark`}
+                            className="wow cimgio"
+                            data-delay="500"
                           >
                             art &amp; illustration
                           </Link>
@@ -186,6 +200,8 @@ const Works3 = () => {
                         <h4>
                           <Link
                             href={`/project-details2/project-details2-dark`}
+                            className="wow cimgio"
+                            data-delay="500"
                           >
                             Inspiring new space
                           </Link>
@@ -205,6 +221,8 @@ const Works3 = () => {
                         <h6>
                           <Link
                             href={`/works3/works3-dark`}
+                            className="wow cimgio"
+                            data-delay="500"
                           >
                             art &amp; illustration
                           </Link>
@@ -212,6 +230,8 @@ const Works3 = () => {
                         <h4>
                           <Link
                             href={`/project-details2/project-details2-dark`}
+                            className="wow cimgio"
+                            data-delay="500"
                           >
                             Inspiring new space
                           </Link>
@@ -231,6 +251,8 @@ const Works3 = () => {
                         <h6>
                           <Link
                             href={`/works3/works3-dark`}
+                            className="wow cimgio"
+                            data-delay="500"
                           >
                             art &amp; illustration
                           </Link>
@@ -238,6 +260,8 @@ const Works3 = () => {
                         <h4>
                           <Link
                             href={`/project-details2/project-details2-dark`}
+                            className="wow cimgio"
+                            data-delay="500"
                           >
                             Inspiring new space
                           </Link>

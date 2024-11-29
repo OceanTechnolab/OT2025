@@ -10,7 +10,7 @@ const NavbarArch = ({ navbarRef, theme }) => {
   return (
     <nav className="navbar navbar-expand-lg" ref={navbarRef}>
       <div className="container">
-        <a className="logo" href="/">
+        <Link href="/" className="logo">
           {theme ? (
             theme === "themeL" ? (
               <img src={appData.darkLogo} alt="logo" />
@@ -20,7 +20,7 @@ const NavbarArch = ({ navbarRef, theme }) => {
           ) : (
             <img src={appData.lightLogo} alt="logo" />
           )}
-        </a>
+        </Link>
 
         <button
           className="navbar-toggler"
@@ -48,54 +48,30 @@ const NavbarArch = ({ navbarRef, theme }) => {
                 Home
               </span>
               <div className="dropdown-menu">
-                <a
-                  className="dropdown-item"
-                  href={`/homepage/home1-dark`}
-                >
+                <Link href={`/homepage/home1-dark`} className="dropdown-item">
                   Main Home
-                </a>
-                <a
-                  className="dropdown-item"
-                  href={`/homepage/home2-dark`}
-                >
+                </Link>
+                <Link href={`/homepage/home2-dark`} className="dropdown-item">
                   Creative Agency
-                </a>
-                <a
-                  className="dropdown-item"
-                  href={`/homepage/home5-dark`}
-                >
+                </Link>
+                <Link href={`/homepage/home5-dark`} className="dropdown-item">
                   Digital Agency
-                </a>
-                <a
-                  className="dropdown-item"
-                  href={`/homepage/home4-dark`}
-                >
+                </Link>
+                <Link href={`/homepage/home4-dark`} className="dropdown-item">
                   Business One Page
-                </a>
-                <a
-                  className="dropdown-item"
-                  href={`/homepage/home3-dark`}
-                >
+                </Link>
+                <Link href={`/homepage/home3-dark`} className="dropdown-item">
                   Corporate Business
-                </a>
-                <a
-                  className="dropdown-item"
-                  href={`/homepage/home6-dark`}
-                >
+                </Link>
+                <Link href={`/homepage/home6-dark`} className="dropdown-item">
                   Modern Agency
-                </a>
-                <a
-                  className="dropdown-item"
-                  href={`/homepage/home7-dark`}
-                >
+                </Link>
+                <Link href={`/homepage/home7-dark`} className="dropdown-item">
                   Freelancer
-                </a>
-                <a
-                  className="dropdown-item"
-                  href={`/homepage/home8-dark`}
-                >
+                </Link>
+                <Link href={`/homepage/home8-dark`} className="dropdown-item">
                   Architecture
-                </a>
+                </Link>
               </div>
             </li>
 

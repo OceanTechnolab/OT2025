@@ -19,10 +19,9 @@ const Intro2 = ({ sliderRef }) => {
               </p>
               <Link
                 href={`/about/about-dark`}
+                className="butn bord curve mt-30"
               >
-                <a className="butn bord curve mt-30">
-                  <span>About Us</span>
-                </a>
+                <span>About Us</span>
               </Link>
             </div>
           </div>

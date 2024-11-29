@@ -83,11 +83,12 @@ const Works = () => {
                         />
                         <div className="cont">
                           <h6 className="color-font">
-                            <a href="#0">{item.title}</a>
+                            <Link href="#0" className="wow cimgio" data-delay="500">{item.title}</Link>
                           </h6>
                           <h4>
                             <Link
                               href={`/project-details2/project-details2-dark`}
+                              className="wow cimgio" data-delay="500"
                             >
                               {item.secTex}
                             </Link>

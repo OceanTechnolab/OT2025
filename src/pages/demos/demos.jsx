@@ -187,15 +187,13 @@ const Demos = () => {
                     <span className="dot"></span>
                     <span className="dot"></span>
                     <span className="dot"></span>
-                    <Link href="/homepage/home1-dark">
-                      <a target="_blank">
-                        <div className="img">
-                          <img src="/demo-img/1.png" alt="image" />
-                        </div>
-                        <div className="cont">
-                          <h6>Main Demo</h6>
-                        </div>
-                      </a>
+                    <Link href="/homepage/home1-dark" target="_blank" className="imago wow animated">
+                      <div className="img">
+                        <img src="/demo-img/1.png" alt="image" />
+                      </div>
+                      <div className="cont">
+                        <h6>Main Demo</h6>
+                      </div>
                     </Link>
                   </div>
                 </div>

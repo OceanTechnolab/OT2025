@@ -66,11 +66,9 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark`}>
-                  <a className="imago wow">
-                    <img src="/img/portfolio/portfolio/1/1.jpg" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
+                <Link href={`/project-details2/project-details2-dark`} className="imago wow">
+                  <img src="/img/portfolio/portfolio/1/1.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
                 </Link>
               </div>
               <div className="cont">
@@ -93,11 +91,9 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark`}>
-                  <a className="imago wow">
-                    <img src="/img/portfolio/portfolio/1/2.jpg" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
+                <Link href={`/project-details2/project-details2-dark`} className="imago wow">
+                  <img src="/img/portfolio/portfolio/1/2.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
                 </Link>
               </div>
               <div className="cont">
@@ -120,11 +116,9 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark`}>
-                  <a className="imago wow">
-                    <img src="/img/portfolio/portfolio/1/3.jpg" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
+                <Link href={`/project-details2/project-details2-dark`} className="imago wow">
+                  <img src="/img/portfolio/portfolio/1/3.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
                 </Link>
               </div>
               <div className="cont">
@@ -147,11 +141,9 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark`}>
-                  <a className="imago wow">
-                    <img src="/img/portfolio/portfolio/1/4.jpg" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
+                <Link href={`/project-details2/project-details2-dark`} className="imago wow">
+                  <img src="/img/portfolio/portfolio/1/4.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
                 </Link>
               </div>
               <div className="cont">
@@ -174,11 +166,9 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark`}>
-                  <a className="imago wow">
-                    <img src="/img/portfolio/portfolio/1/5.jpg" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
+                <Link href={`/project-details2/project-details2-dark`} className="imago wow">
+                  <img src="/img/portfolio/portfolio/1/5.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
                 </Link>
               </div>
               <div className="cont">
@@ -201,11 +191,9 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark`}>
-                  <a className="imago wow">
-                    <img src="/img/portfolio/portfolio/1/6.jpg" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
+                <Link href={`/project-details2/project-details2-dark`} className="imago wow">
+                  <img src="/img/portfolio/portfolio/1/6.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
                 </Link>
               </div>
               <div className="cont">

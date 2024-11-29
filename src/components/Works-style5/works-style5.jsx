@@ -41,11 +41,9 @@ const WorksStyle5 = () => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark`}>
-                  <a className="imago wow">
-                    <img src="/img/arch/work/1.jpg" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
+                <Link href={`/project-details2/project-details2-dark`} className="imago wow">
+                  <img src="/img/arch/work/1.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
                 </Link>
               </div>
               <div className="cont">
@@ -62,11 +60,9 @@ const WorksStyle5 = () => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark`}>
-                  <a className="imago wow">
-                    <img src="/img/arch/work/2.jpg" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
+                <Link href={`/project-details2/project-details2-dark`} className="imago wow">
+                  <img src="/img/arch/work/2.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
                 </Link>
               </div>
               <div className="cont">
@@ -83,11 +79,9 @@ const WorksStyle5 = () => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark`}>
-                  <a className="imago wow">
-                    <img src="/img/arch/work/5.jpg" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
+                <Link href={`/project-details2/project-details2-dark`} className="imago wow">
+                  <img src="/img/arch/work/5.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
                 </Link>
               </div>
               <div className="cont">
@@ -104,11 +98,9 @@ const WorksStyle5 = () => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark`}>
-                  <a className="imago wow">
-                    <img src="/img/arch/work/3.jpg" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
+                <Link href={`/project-details2/project-details2-dark`} className="imago wow">
+                  <img src="/img/arch/work/3.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
                 </Link>
               </div>
               <div className="cont">
@@ -125,11 +117,9 @@ const WorksStyle5 = () => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark`}>
-                  <a className="imago wow">
-                    <img src="/img/arch/work/4.jpg" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
+                <Link href={`/project-details2/project-details2-dark`} className="imago wow">
+                  <img src="/img/arch/work/4.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
                 </Link>
               </div>
               <div className="cont">
@@ -146,11 +136,9 @@ const WorksStyle5 = () => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark`}>
-                  <a className="imago wow">
-                    <img src="/img/arch/work/6.jpg" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
+                <Link href={`/project-details2/project-details2-dark`} className="imago wow">
+                  <img src="/img/arch/work/6.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
                 </Link>
               </div>
               <div className="cont">

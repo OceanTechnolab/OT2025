@@ -18,20 +18,16 @@ const BlogGrid = ({ blogs }) => {
                   <div className="cont">
                     <div>
                       <div className="info">
-                        <Link href="/blog/blog-dark">
-                          <a className="date">
-                            <span>
-                              <i>{blogItem.date.day}</i>
-                              {blogItem.date.month}
-                            </span>
-                          </a>
+                        <Link href="/blog/blog-dark" className="date">
+                          <span>
+                            <i>{blogItem.date.day}</i>
+                            {blogItem.date.month}
+                          </span>
                         </Link>
                         <span>/</span>
                         {blogItem.tags.map((tag, index) => (
-                          <Link key={index} href="/blog/blog-dark/">
-                            <a className="tag">
-                              <span>{tag}</span>
-                            </a>
+                          <Link key={index} href="/blog/blog-dark" className="tag">
+                            <span>{tag}</span>
                           </Link>
                         ))}
                       </div>
@@ -41,8 +37,8 @@ const BlogGrid = ({ blogs }) => {
                         </Link>
                       </h5>
                       <div className="btn-more">
-                        <Link href="/blog-details/blog-details-dark">
-                          <a className="simple-btn">Read More</a>
+                        <Link href="/blog-details/blog-details-dark" className="simple-btn">
+                          Read More
                         </Link>
                       </div>
                     </div>
@@ -58,10 +54,8 @@ const BlogGrid = ({ blogs }) => {
                 <Link href={`/blog/blog-dark`}>2</Link>
               </span>
               <span>
-                <Link href={`/blog/blog-blogwindow.theme}`}>
-                  <a>
-                    <i className="fas fa-angle-right"></i>
-                  </a>
+                <Link href={`/blog/blog-dark`}>
+                  <i className="fas fa-angle-right"></i>
                 </Link>
               </span>
             </div>

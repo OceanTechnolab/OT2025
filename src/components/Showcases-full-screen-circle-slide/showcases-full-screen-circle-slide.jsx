@@ -89,11 +89,11 @@ const ShowcasesFullScreenCircleSlide = () => {
                         <h1 data-swiper-parallax="-2000">
                           <Link
                             href={`/project-details2/project-details2-dark`}
+                            className="wow cimgio"
+                            data-delay="500"
                           >
-                            <a>
-                              <div className="stroke">{slide.title.first}</div>
-                              <span>{slide.title.second}</span>
-                            </a>
+                            <div className="stroke">{slide.title.first}</div>
+                            <span>{slide.title.second}</span>
                           </Link>
                         </h1>
                       </div>
@@ -103,11 +103,11 @@ const ShowcasesFullScreenCircleSlide = () => {
                         <h1 data-swiper-parallax="-2000">
                           <Link
                             href={`/project-details2/project-details2-dark`}
+                            className="wow cimgio"
+                            data-delay="500"
                           >
-                            <a>
-                              <div className="stroke">{slide.title.first}</div>
-                              <span>{slide.title.second}</span>
-                            </a>
+                            <div className="stroke">{slide.title.first}</div>
+                            <span>{slide.title.second}</span>
                           </Link>
                         </h1>
                       </div>

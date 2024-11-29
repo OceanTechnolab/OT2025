@@ -29,11 +29,9 @@ const Works4 = () => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href="/project-details2/project-details2-dark">
-                  <a className="imago wow animated">
-                    <img src="/img/mobile-app/works/1.jpg" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
+                <Link href="/project-details2/project-details2-dark" className="imago wow animated">
+                  <img src="/img/mobile-app/works/1.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
                 </Link>
                 <div className="cont valign">
                   <div className="full-width text-center">
@@ -50,11 +48,9 @@ const Works4 = () => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href="/project-details2/project-details2-dark">
-                  <a className="imago wow animated">
-                    <img src="/img/mobile-app/works/2.jpg" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
+                <Link href="/project-details2/project-details2-dark" className="imago wow animated">
+                  <img src="/img/mobile-app/works/2.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
                 </Link>
                 <div className="cont valign">
                   <div className="full-width text-center">
@@ -71,11 +67,9 @@ const Works4 = () => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href="/project-details2/project-details2-dark">
-                  <a className="imago wow animated">
-                    <img src="/img/mobile-app/works/5.jpg" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
+                <Link href="/project-details2/project-details2-dark" className="imago wow animated">
+                  <img src="/img/mobile-app/works/5.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
                 </Link>
                 <div className="cont valign">
                   <div className="full-width text-center">
@@ -92,11 +86,9 @@ const Works4 = () => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href="/project-details2/project-details2-dark">
-                  <a className="imago wow animated">
-                    <img src="/img/mobile-app/works/3.jpg" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
+                <Link href="/project-details2/project-details2-dark" className="imago wow animated">
+                  <img src="/img/mobile-app/works/3.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
                 </Link>
                 <div className="cont valign">
                   <div className="full-width text-center">
@@ -113,11 +105,9 @@ const Works4 = () => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href="/project-details2/project-details2-dark">
-                  <a className="imago wow animated">
-                    <img src="/img/mobile-app/works/4.jpg" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
+                <Link href="/project-details2/project-details2-dark" className="imago wow animated">
+                  <img src="/img/mobile-app/works/4.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
                 </Link>
                 <div className="cont valign">
                   <div className="full-width text-center">
@@ -134,11 +124,9 @@ const Works4 = () => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href="/project-details2/project-details2-dark">
-                  <a className="imago wow animated">
-                    <img src="/img/mobile-app/works/6.jpg" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
+                <Link href="/project-details2/project-details2-dark" className="imago wow animated">
+                  <img src="/img/mobile-app/works/6.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
                 </Link>
                 <div className="cont valign">
                   <div className="full-width text-center">
@@ -155,11 +143,9 @@ const Works4 = () => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href="/project-details2/project-details2-dark">
-                  <a className="imago wow animated">
-                    <img src="/img/mobile-app/works/7.jpg" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
+                <Link href="/project-details2/project-details2-dark" className="imago wow animated">
+                  <img src="/img/mobile-app/works/7.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
                 </Link>
                 <div className="cont valign">
                   <div className="full-width text-center">
@@ -176,11 +162,9 @@ const Works4 = () => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href="/project-details2/project-details2-dark">
-                  <a className="imago wow animated">
-                    <img src="/img/mobile-app/works/8.jpg" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
+                <Link href="/project-details2/project-details2-dark" className="imago wow animated">
+                  <img src="/img/mobile-app/works/8.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
                 </Link>
                 <div className="cont valign">
                   <div className="full-width text-center">

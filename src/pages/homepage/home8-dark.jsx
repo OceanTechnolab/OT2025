@@ -56,6 +56,14 @@ const Homepage = () => {
         <LatestNews />
         <ContactArch />
         <FooterArch />
+        <Link href="/homepage/home2-light" target="_blank" className="imago wow animated">
+          <div className="img">
+            <img src="/demo-img/02.png" alt="image" />
+          </div>
+          <div className="cont">
+            <h6>Creative Agency</h6>
+          </div>
+        </Link>
       </DarkTheme>
     </>
   );

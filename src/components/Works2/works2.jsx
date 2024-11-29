@@ -108,15 +108,19 @@ const Works2 = ({ sliderRef }) => {
                             <h6>
                               <Link
                                 href={`/works2/works2-dark`}
+                                className="wow cimgio"
+                                data-delay="500"
                               >
-                                <a>art &amp; illustration</a>
+                                art &amp; illustration
                               </Link>
                             </h6>
                             <h4>
                               <Link
                                 href={`/project-details2/project-details2-dark`}
+                                className="wow cimgio"
+                                data-delay="500"
                               >
-                                <a>Innovation and Crafts.</a>
+                                Innovation and Crafts.
                               </Link>
                             </h4>
                           </div>
@@ -138,14 +142,14 @@ const Works2 = ({ sliderRef }) => {
                               <Link
                                 href={`/works2/works2-dark`}
                               >
-                                <a>art &amp; illustration</a>
+                                art &amp; illustration
                               </Link>
                             </h6>
                             <h4>
                               <Link
                                 href={`/project-details2/project-details2-dark`}
                               >
-                                <a>Inspiring new space.</a>
+                                Inspiring new space.
                               </Link>
                             </h4>
                           </div>
@@ -167,14 +171,14 @@ const Works2 = ({ sliderRef }) => {
                               <Link
                                 href={`/works2/works2-dark`}
                               >
-                                <a>art &amp; illustration</a>
+                                art &amp; illustration
                               </Link>
                             </h6>
                             <h4>
                               <Link
                                 href={`/project-details2/project-details2-dark`}
                               >
-                                <a>Natural plus modern.</a>
+                                Natural plus modern.
                               </Link>
                             </h4>
                           </div>
@@ -196,14 +200,14 @@ const Works2 = ({ sliderRef }) => {
                               <Link
                                 href={`/works2/works2-dark`}
                               >
-                                <a>art &amp; illustration</a>
+                                art &amp; illustration
                               </Link>
                             </h6>
                             <h4>
                               <Link
                                 href={`/project-details2/project-details2-dark`}
                               >
-                                <a>Innovation and Crafts.</a>
+                                Innovation and Crafts.
                               </Link>
                             </h4>
                           </div>
@@ -225,14 +229,14 @@ const Works2 = ({ sliderRef }) => {
                               <Link
                                 href={`/works2/works2-dark`}
                               >
-                                <a>art &amp; illustration</a>
+                                art &amp; illustration
                               </Link>
                             </h6>
                             <h4>
                               <Link
                                 href={`/project-details2/project-details2-dark`}
                               >
-                                <a>Inspiring new space.</a>
+                                Inspiring new space.
                               </Link>
                             </h4>
                           </div>

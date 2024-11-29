@@ -86,7 +86,7 @@ const ShowcasesGrid = () => {
           >
             {ShowcassesFullScreenData.map((slide) => (
               <SwiperSlide key={slide.id} className="swiper-slide">
-                <Link passHref href={`/project-details2/project-details2-dark`}>
+                <Link passHref href={`/project-details2/project-details2-dark`} className="wow cimgio" data-delay="500">
                   <div
                     className="bg-img"
                     style={{

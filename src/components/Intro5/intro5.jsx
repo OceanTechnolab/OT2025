@@ -93,11 +93,9 @@ const Intro5 = () => {
                       </div>
                       <div className="col-lg-4 valign">
                         <div className="explore">
-                          <Link href="/project-details2/project-details2-dark"> 
-                          <a >
+                          <Link href="/project-details2/project-details2-dark">
                             Explore Project
                             <i className="ion-chevron-right"></i>
-                          </a>
                           </Link>
                         </div>
                       </div>
