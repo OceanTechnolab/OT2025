@@ -14,8 +14,7 @@ const Intro2 = ({ sliderRef }) => {
               </div>
               <h1 className="mb-10 fw-600">Trusted Software Development Company</h1>
               <p>
-                We help our clients succeed by creating brand identities,
-                digital experiences, and print materials.
+              We offer expert services in Website, Mobile App Development, and Digital Marketing with a dedicated team committed to excellence and timely delivery.
               </p>
               <Link
                 href={`/about/about-dark`}
