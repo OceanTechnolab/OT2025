@@ -19,7 +19,7 @@ const Demos = () => {
   }, [pageLoaded]);
   return (
     <DarkTheme>
-      <style jsx>{`
+      <style>{`
         .sec-head h3 {
           font-size: 60px;
           font-weight: 700;
