@@ -73,7 +73,7 @@ const Homepage2 = () => {
     "windowsserver",
     "iis",
     "linq"
-  ]); // Includes .NET and Microsoft-related technologies
+  ]);
   
 
   React.useEffect(() => {
