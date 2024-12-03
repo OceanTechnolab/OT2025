@@ -110,7 +110,7 @@ const Footer = ({ hideBGCOLOR }) => {
               </div>
               <div className="copy-right">
                 <p>
-                  © 2022, Vie Template. Made with passion by
+                  © 2024, OCEAN TECHNOLAB Template. Made with passion by
                   <Link
                     href="https://themeforest.net/user/themescamp/portfolio"
                     target="_blank"

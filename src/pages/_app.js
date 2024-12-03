@@ -10,8 +10,8 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Vie</title>
-        <link rel="icon" href="/img/favicon.ico" />
+        <title>Ocean Technolab | Premier Expertise in Angular, ReactJS, .NET & Azure Solutions</title>
+        <link rel="icon" href="/img/favicon.png" />
       </Head>
       <Cursor />
       <LoadingScreen />
