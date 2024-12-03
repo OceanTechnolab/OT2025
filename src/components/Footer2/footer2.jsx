@@ -68,7 +68,7 @@ const Footer2 = () => {
               <div className="info">
                 <span>Email Address</span>
                 <h6>
-                  <a href="#0">support@gmail.com</a>
+                  <a href="#0">info@oceantechnolab.com</a>
                 </h6>
               </div>
               <div className="social mt-30">

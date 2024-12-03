@@ -74,7 +74,7 @@ const FreelancreIntro = () => {
                     <div className="text valign">
                       <div className="full-width">
                         <p>Get In Touch</p>
-                        <h6>Vie_Support@Gmail.Com</h6>
+                        <h6>Vie_info@oceantechnolab.com</h6>
                       </div>
                     </div>
                     <div className="mail-icon">

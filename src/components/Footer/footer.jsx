@@ -17,15 +17,15 @@ const Footer = ({ hideBGCOLOR }) => {
                 <li>
                   <span className="icon pe-7s-map-marker"></span>
                   <div className="cont">
-                    <h6>Officeal Address</h6>
-                    <p>504 White St . Dawsonville, GA 30534 , New York</p>
+                    <h6>Our Offices</h6>
+                    <p>INDIA | AUSTRALIA</p>
                   </div>
                 </li>
                 <li>
                   <span className="icon pe-7s-mail"></span>
                   <div className="cont">
                     <h6>Email Us</h6>
-                    <p>support@gmail.com</p>
+                    <p>info@oceantechnolab.com</p>
                   </div>
                 </li>
                 <li>
@@ -112,10 +112,10 @@ const Footer = ({ hideBGCOLOR }) => {
                 <p>
                   © 2024, OCEAN TECHNOLAB Template. Made with passion by
                   <Link
-                    href="https://themeforest.net/user/themescamp/portfolio"
+                    href="#"
                     target="_blank"
                   >
-                    ThemesCamp
+                    Team Ocean Technolab
                   </Link>
                   .
                 </p>
