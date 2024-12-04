@@ -119,7 +119,7 @@ class FullTestimonials extends React.Component {
                     </div>
                   </div>
                   <p>
-                    I would highly recommend Vie Digital. I worked with the team
+                    I would highly recommend OCEAN TECHNOLAB. I worked with the team
                     on an animation for our ‘Click &amp; Collect’ service.
                   </p>
                 </div>
@@ -140,7 +140,7 @@ class FullTestimonials extends React.Component {
                     </div>
                   </div>
                   <p>
-                    I would highly recommend Vie Digital. I worked with the team
+                    I would highly recommend OCEAN TECHNOLAB. I worked with the team
                     on an animation for our ‘Click &amp; Collect’ service.
                   </p>
                 </div>
@@ -161,7 +161,7 @@ class FullTestimonials extends React.Component {
                     </div>
                   </div>
                   <p>
-                    I would highly recommend Vie Digital. I worked with the team
+                    I would highly recommend OCEAN TECHNOLAB. I worked with the team
                     on an animation for our ‘Click &amp; Collect’ service.
                   </p>
                 </div>
@@ -182,7 +182,7 @@ class FullTestimonials extends React.Component {
                     </div>
                   </div>
                   <p>
-                    I would highly recommend Vie Digital. I worked with the team
+                    I would highly recommend OCEAN TECHNOLAB. I worked with the team
                     on an animation for our ‘Click &amp; Collect’ service.
                   </p>
                 </div>

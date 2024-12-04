@@ -8,7 +8,7 @@ const Footer2 = () => {
           <div className="col-lg-4 col-md-6">
             <div className="item-clumn our md-mb50">
               <a href="#0" className="logo-brand mb-50">
-                <img src="/img/logo-gr.png" alt="" />
+                <img src="/img/ocean-logo.webp" alt="" />
               </a>
               <p>
                 Sed ut perspiciatis undmnis iste natus error sit voluptatem
@@ -68,7 +68,7 @@ const Footer2 = () => {
               <div className="info">
                 <span>Email Address</span>
                 <h6>
-                  <a href="#0">support@gmail.com</a>
+                  <a href="#0">info@oceantechnolab.com</a>
                 </h6>
               </div>
               <div className="social mt-30">
@@ -94,7 +94,7 @@ const Footer2 = () => {
           <div className="row">
             <div className="col-12">
               <div className="text-center">
-                <p>© 2022 Vie. All Rights Reserved</p>
+                <p>© 2025 OCEAN TECHNOLAB. All Rights Reserved</p>
               </div>
             </div>
           </div>
