@@ -54,6 +54,7 @@ const IconCloud = ({ iconSlugs }) => {
       options={{
         reverse: true,
         depth: 1,
+        wheelZoom: false,
         imageScale: 2,
         activeCursor: "default",
         tooltip: "native",
@@ -61,8 +62,8 @@ const IconCloud = ({ iconSlugs }) => {
         clickToFront: 500,
         tooltipDelay: 0,
         outlineColour: "#0000",
-        maxSpeed: 0.02,
-        minSpeed: 0.01,
+        maxSpeed: 0.04,
+        minSpeed: 0.02,
       }}
     >
       {renderedIcons}
