@@ -67,11 +67,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
                   ? "col-md-6"
                   : "col-12"
               } items graphic wow fadeInUp`}
-<<<<<<< Updated upstream
               data-wow-delay=".4s"
-=======
-              data-wow-delay=".1s"
->>>>>>> Stashed changes
             >
               <div className="image-container">
                 <Link href={`/project-details2/project-details2-dark`} className="imago wow">
