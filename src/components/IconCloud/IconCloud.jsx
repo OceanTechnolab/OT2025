@@ -54,8 +54,6 @@ const IconCloud = ({ iconSlugs }) => {
       options={{
         reverse: true,
         depth: 1,
-        wheelZoom: true,
-        zoomMax: 1,
         imageScale: 2,
         activeCursor: "default",
         tooltip: "native",
