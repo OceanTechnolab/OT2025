@@ -62,7 +62,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
             <div
               className={`${
                 grid === 3
-                  ? "col-lg-4 col-md-6"
+                  ? "col-lg-4 col-md-3"
                   : grid === 2
                   ? "col-md-6"
                   : "col-12"
@@ -71,7 +71,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
             >
               <div className="image-container">
                 <Link href={`/project-details2/project-details2-dark`} className="imago wow">
-                  <img src="public/img/portfolio/portfolio/Ocean%20Category%20Pictures/Action%20Figure%20Collection%201.webp" alt="image" />
+                  <img src="/img/portfolio/portfolio/WorkCategory/ActionFigureCollection.webp" alt="Taksh Infinity" />
                   <div className="item-img-overlay"></div>
                 </Link>
               </div> 
