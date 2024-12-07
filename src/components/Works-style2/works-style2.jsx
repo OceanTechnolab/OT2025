@@ -45,11 +45,15 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
             >
               <div className="filter">
                 <span data-filter="*" className="active">
-                  All
+                  All Templates
                 </span>
-                <span data-filter=".brand">Branding</span>
-                <span data-filter=".web">Mobile App</span>
-                <span data-filter=".graphic">Creative</span>
+                <span data-filter=".brand">Business</span>
+                <span data-filter=".web">Shop</span>
+                <span data-filter=".graphic">Services</span>
+                <span data-filter=".brand">Creative</span>
+                <span data-filter=".web">Blog&Magzine</span>
+                <span data-filter=".graphic">Food</span>
+                <span data-filter=".graphic">Beauty&Health</span>
               </div>
             </div>
           )}
@@ -65,12 +69,12 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               } items graphic wow fadeInUp`}
               data-wow-delay=".4s"
             >
-              <div className="item-img">
+              <div className="image-container">
                 <Link href={`/project-details2/project-details2-dark`} className="imago wow">
-                  <img src="/img/portfolio/portfolio/1/1.jpg" alt="image" />
+                  <img src="public/img/portfolio/portfolio/Ocean%20Category%20Pictures/Action%20Figure%20Collection%201.webp" alt="image" />
                   <div className="item-img-overlay"></div>
                 </Link>
-              </div>
+              </div> 
               <div className="cont">
                 <h6>Creativity Demand</h6>
                 <span>
@@ -90,7 +94,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               } items web wow fadeInUp`}
               data-wow-delay=".4s"
             >
-              <div className="item-img">
+              <div className="image-container">
                 <Link href={`/project-details2/project-details2-dark`} className="imago wow">
                   <img src="/img/portfolio/portfolio/1/2.jpg" alt="image" />
                   <div className="item-img-overlay"></div>
