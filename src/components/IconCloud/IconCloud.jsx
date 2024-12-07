@@ -50,10 +50,11 @@ const IconCloud = ({ iconSlugs }) => {
           paddingTop: 40,
         },
       }}
+      // https://github.com/teaguestockwell/react-icon-cloud/blob/a24fbc4bedd0607472610bc65f4f726e2f03e13a/src/types/options.ts (for all options)
       options={{
         reverse: true,
         depth: 1,
-        wheelZoom: false,
+        wheelZoom: true,
         imageScale: 2,
         activeCursor: "default",
         tooltip: "native",
