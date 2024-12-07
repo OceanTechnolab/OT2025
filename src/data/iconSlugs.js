@@ -15,9 +15,7 @@ const iconSlugs = [
   "redux",
   "electron",
   "vite",
-  "astro",
   "threejs",
-  "trpc",
   // Backend Frameworks and Databases
   "nodejs",
   "django",
