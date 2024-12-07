@@ -1,6 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import Link from 'next/link'
+import IconCloud from "../../components/IconCloud/IconCloud";
+import iconSlugs from "../../data/iconSlugs";
 
 const Intro2 = ({ sliderRef }) => {
   return (
@@ -25,9 +27,7 @@ const Intro2 = ({ sliderRef }) => {
             </div>
           </div>
           <div className="col-lg-6">
-            <div className="img">
-              <img src="/img/slid/001.jpg" alt="" />
-            </div>
+          <IconCloud iconSlugs={iconSlugs} />
           </div>
         </div>
       </div>
