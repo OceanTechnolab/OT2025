@@ -63,7 +63,11 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
                   ? "col-md-6"
                   : "col-12"
               } items graphic wow fadeInUp`}
+<<<<<<< Updated upstream
               data-wow-delay=".4s"
+=======
+              data-wow-delay=".1s"
+>>>>>>> Stashed changes
             >
               <div className="item-img">
                 <Link href={`/project-details2/project-details2-dark`} className="imago wow">
@@ -72,7 +76,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
                 </Link>
               </div>
               <div className="cont">
-                <h6>Creativity Demand</h6>
+                <h6>Taksh Infinity</h6>
                 <span>
                   <Link href="/works3/works3-dark">Design</Link>,
                   <Link href="/works3/works3-dark">WordPress</Link>
@@ -88,7 +92,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
                   ? "col-md-6"
                   : "col-12"
               } items web wow fadeInUp`}
-              data-wow-delay=".4s"
+              data-wow-delay=".1s"
             >
               <div className="item-img">
                 <Link href={`/project-details2/project-details2-dark`} className="imago wow">
@@ -113,7 +117,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
                   ? "col-md-6"
                   : "col-12"
               } items brand wow fadeInUp`}
-              data-wow-delay=".4s"
+              data-wow-delay=".1s"
             >
               <div className="item-img">
                 <Link href={`/project-details2/project-details2-dark`} className="imago wow">
@@ -138,7 +142,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
                   ? "col-md-6"
                   : "col-12"
               } items graphic wow fadeInUp`}
-              data-wow-delay=".4s"
+              data-wow-delay=".1s"
             >
               <div className="item-img">
                 <Link href={`/project-details2/project-details2-dark`} className="imago wow">
@@ -163,7 +167,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
                   ? "col-md-6"
                   : "col-12"
               } items web wow fadeInUp`}
-              data-wow-delay=".4s"
+              data-wow-delay=".1s"
             >
               <div className="item-img">
                 <Link href={`/project-details2/project-details2-dark`} className="imago wow">
@@ -188,7 +192,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
                   ? "col-md-6"
                   : "col-12"
               } items brand wow fadeInUp`}
-              data-wow-delay=".4s"
+              data-wow-delay=".1s"
             >
               <div className="item-img">
                 <Link href={`/project-details2/project-details2-dark`} className="imago wow">

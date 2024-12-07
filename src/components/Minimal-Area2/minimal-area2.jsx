@@ -38,7 +38,7 @@ const MinimalArea2 = () => {
                 <li className="wow fadeInUp" data-wow-delay=".2s">
                   We provide free initial consultation and support.
                 </li>
-                <li className="wow fadeInUp" data-wow-delay=".4s">
+                <li className="wow fadeInUp" data-wow-delay=".1s">
                   We work with some of the most successful businesses.
                 </li>
               </ul>

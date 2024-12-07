@@ -55,7 +55,7 @@ const Portfolio = ({ grid, filterPosition }) => {
                   ? "col-md-6 lg-mr"
                   : "col-12"
               } items graphic wow fadeInUp`}
-              data-wow-delay=".4s"
+              data-wow-delay=".1s"
             >
               <div className="item-img">
                 <Link href={`/project-details2/project-details2-dark`} className="imago wow">
@@ -79,7 +79,7 @@ const Portfolio = ({ grid, filterPosition }) => {
                   ? "col-md-6"
                   : "col-12"
               } items web wow fadeInUp`}
-              data-wow-delay=".4s"
+              data-wow-delay=".1s"
             >
               <div className="item-img">
                 <Link href={`/project-details2/project-details2-dark`} className="imago wow">
@@ -103,7 +103,7 @@ const Portfolio = ({ grid, filterPosition }) => {
                   ? "col-md-6"
                   : "col-12"
               } items brand wow fadeInUp`}
-              data-wow-delay=".4s"
+              data-wow-delay=".1s"
             >
               <div className="item-img">
                 <Link href={`/project-details2/project-details2-dark`} className="imago wow">
@@ -127,7 +127,7 @@ const Portfolio = ({ grid, filterPosition }) => {
                   ? "col-md-6"
                   : "col-12"
               } items graphic wow fadeInUp`}
-              data-wow-delay=".4s"
+              data-wow-delay=".1s"
             >
               <div className="item-img">
                 <Link href={`/project-details2/project-details2-dark`} className="imago wow">
@@ -151,7 +151,7 @@ const Portfolio = ({ grid, filterPosition }) => {
                   ? "col-md-6"
                   : "col-12"
               } items web wow fadeInUp`}
-              data-wow-delay=".4s"
+              data-wow-delay=".1s"
             >
               <div className="item-img">
                 <Link href={`/project-details2/project-details2-dark`} className="imago wow">
@@ -175,7 +175,7 @@ const Portfolio = ({ grid, filterPosition }) => {
                   ? "col-md-6"
                   : "col-12"
               } items brand wow fadeInUp`}
-              data-wow-delay=".4s"
+              data-wow-delay=".1s"
             >
               <div className="item-img">
                 <Link href={`/project-details2/project-details2-dark`} className="imago wow">

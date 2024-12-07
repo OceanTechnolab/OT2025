@@ -25,7 +25,7 @@ const WorksStyle3 = () => {
           </div>
 
           <div className="gallery-mons full-width">
-            <div className="items graphic wow fadeInUp" data-wow-delay=".4s">
+            <div className="items graphic wow fadeInUp" data-wow-delay=".1s">
               <div className="item-img">
                 <Link
                   href={`/project-details2/project-details2-dark`}
@@ -43,7 +43,7 @@ const WorksStyle3 = () => {
               </div>
             </div>
 
-            <div className="items web brand wow fadeInUp" data-wow-delay=".4s">
+            <div className="items web brand wow fadeInUp" data-wow-delay=".1s">
               <div className="item-img">
                 <Link
                   href={`/project-details2/project-details2-dark`}
@@ -63,7 +63,7 @@ const WorksStyle3 = () => {
 
             <div
               className="items width2 brand wow fadeInUp"
-              data-wow-delay=".4s"
+              data-wow-delay=".1s"
             >
               <div className="item-img">
                 <Link
@@ -84,7 +84,7 @@ const WorksStyle3 = () => {
 
             <div
               className="items width2 graphic wow fadeInUp"
-              data-wow-delay=".4s"
+              data-wow-delay=".1s"
             >
               <div className="item-img">
                 <Link
