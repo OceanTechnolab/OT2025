@@ -1926,8 +1926,11 @@ body {
 }
 
 .navbar .logo {
-  width: 50px;
+  width: 40%; /* Adjust the size as needed */
+  height: auto;
 }
+
+
 
 .nav-scroll {
   background: #fff;

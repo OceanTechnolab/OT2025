@@ -16,9 +16,9 @@ const Navbar = ({ lr, nr, theme }) => {
         <Link href="/" className="logo">
           {theme ? (
             theme === "themeL" ? (
-              <img ref={lr} src={appData.lightLogo} alt="logo" />
+              <img ref={lr} src={appData.lightLogo} alt="ocean Technolab logo" />
             ) : (
-              <img ref={lr} src={appData.lightLogo} alt="logo" />
+              <img ref={lr} src={appData.lightLogo} alt="Ocean Technolab Logo" />
             )
           ) : (
             <img ref={lr} src={appData.lightLogo} alt="logo" />
@@ -61,9 +61,6 @@ const Navbar = ({ lr, nr, theme }) => {
                 Works
               </span>
               <div className="dropdown-menu">
-                <Link href={`/showcase/showcase-light`} className="dropdown-item">Showcase Parallax</Link>
-                <Link href={`/showcase4/showcase4-light`} className="dropdown-item">Showcase Carousel</Link>
-                <Link href={`/showcase3/showcase3-light`} className="dropdown-item">Showcase Circle</Link>
                 <Link href={`/works/works-light`} className="dropdown-item">Portfolio Masonry</Link>
                 <Link href={`/works2/works2-light`} className="dropdown-item">Portfolio Filtering</Link>
                 <Link href={`/works3/works3-light`} className="dropdown-item">Portfolio Gallery</Link>
