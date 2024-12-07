@@ -1796,7 +1796,7 @@ body {
 }
 
 .navbar .navbar-nav .nav-link {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 500;
   color: #fff;
   padding: 15px 7px;
@@ -2513,7 +2513,7 @@ body {
 .slider .txt-botm .swiper-nav-ctrl span {
   color: #111;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .slider .txt-botm .swiper-nav-ctrl:after {
@@ -2577,7 +2577,7 @@ body {
   color: #fff;
   position: relative;
   margin: 0 10px;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 100;
 }
 
@@ -2850,7 +2850,7 @@ body {
 }
 
 .arch-slider .parallax-slider .explore a i {
-  font-size: 12px;
+  font-size: 16px;
   margin-left: 10px;
 }
 
@@ -3011,7 +3011,7 @@ body {
 }
 
 .freelancre .states li p {
-  font-size: 12px;
+  font-size: 16px;
   text-transform: uppercase;
 }
 
@@ -3129,7 +3129,7 @@ body {
   color: #fff;
   position: relative;
   margin: 0 10px;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 100;
 }
 
@@ -3312,7 +3312,7 @@ body {
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .page-header.proj-det.bg-img .item p a {
@@ -3988,7 +3988,7 @@ body {
 }
 
 .agency .img .exp h6 {
-  font-size: 12px;
+  font-size: 16px;
   color: #999;
   margin-top: 5px;
   position: relative;
@@ -4514,7 +4514,7 @@ body {
   height: 45px;
   line-height: 45px;
   text-align: center;
-  font-size: 12px;
+  font-size: 16px;
   border-radius: 50%;
   border: 2px solid rgba(255, 255, 255, 0.05);
 }
@@ -5019,7 +5019,7 @@ body {
 
 .portfolio .filtering span {
   font-weight: 500;
-  font-size: 12px;
+  font-size: 16px;
   letter-spacing: 1px;
   text-transform: uppercase;
   margin: 0 20px;
@@ -5055,7 +5055,7 @@ body {
 
 .portfolio .filtering.smplx span {
   font-weight: 500;
-  font-size: 12px;
+  font-size: 16px;
   letter-spacing: 1px;
   text-transform: uppercase;
   margin: 0 20px;
@@ -5343,7 +5343,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .portfolio-cr .items .cont span a {
@@ -5475,7 +5475,7 @@ body {
   padding: 8px 12px;
   background: rgba(0, 0, 0, 0.04);
   margin-right: 5px;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .portfolio.full-bg {
@@ -5679,7 +5679,7 @@ body {
 }
 
 .work-carousel .content .cont h6 {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -5697,7 +5697,7 @@ body {
   text-align: center;
   background: rgba(255, 255, 255, 0.03);
   border-radius: 50%;
-  font-size: 12px;
+  font-size: 16px;
   position: absolute;
   top: calc(50% - 17px);
   right: 15px;
@@ -5766,7 +5766,7 @@ body {
 }
 
 .work-carousel .noraidus .cont h6 {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -6160,7 +6160,7 @@ body {
 }
 
 .skills-circle .cont span {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 300;
   opacity: 0.9;
   margin-bottom: 10px;
@@ -6223,7 +6223,7 @@ body {
   padding: 7px 15px;
   border-radius: 5px;
   background: rgba(0, 0, 0, 0.05);
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 600;
 }
 
@@ -6796,7 +6796,7 @@ body {
 
 .block-sec .vid-area .text {
   color: #000;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 600;
   text-transform: uppercase;
   -webkit-transform: rotate(-90deg);
@@ -6846,7 +6846,7 @@ body {
 
 .block-sec .testim-box .head-box h6 {
   color: #2FD3EC;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -6933,7 +6933,7 @@ body {
 
 .blog .item .info {
   margin-bottom: 10px;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .blog .item .info .date {
@@ -6969,7 +6969,7 @@ body {
 }
 
 .blog .item .btn-more a {
-  font-size: 12px;
+  font-size: 16px;
   letter-spacing: 2px;
 }
 
@@ -7189,7 +7189,7 @@ body {
   padding: 5px 15px;
   background: #2FD3EC;
   color: #222;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 500;
   text-align: center;
   z-index: 2;
@@ -7223,7 +7223,7 @@ body {
 }
 
 .blog-list .head a {
-  font-size: 12px;
+  font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 10px;
   margin-top: 40px;
@@ -7283,7 +7283,7 @@ body {
 
 .blog-list .item .info {
   margin-bottom: 15px;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .blog-list .item .info .date {
@@ -7325,11 +7325,11 @@ body {
 .blog-pg .posts .item .content .date {
   margin-right: 15px;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .blog-pg .posts .item .content .date .num {
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .blog-pg .posts .item .content .tags {
@@ -7338,7 +7338,7 @@ body {
 }
 
 .blog-pg .posts .item .content .tags a {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 500;
   color: #2FD3EC;
   padding-right: 20px;
@@ -7471,7 +7471,7 @@ body {
 }
 
 .blog-pg.single .post .content .share-info .tags a {
-  font-size: 12px;
+  font-size: 16px;
   margin: 0 10px;
 }
 
@@ -7577,7 +7577,7 @@ body {
 .blog-pg.single .comments-area .item .info h6 span {
   display: block;
   color: #2FD3EC;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 400;
   margin-top: 5px;
 }
@@ -8074,7 +8074,7 @@ footer .item li .sm-post p {
 }
 
 footer .item li .sm-post .date {
-  font-size: 12px;
+  font-size: 16px;
   color: #2FD3EC;
 }
 
@@ -8804,7 +8804,7 @@ footer .item .copy-right p a {
   }
 
   .sub-title h6 {
-    font-size: 12px;
+    font-size: 16px;
   }
 
   .sec-head h3 {
