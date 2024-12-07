@@ -24,7 +24,6 @@
     "react-slick": "^0.30.2",
     "react-tsparticles": "^2.12.2",
     "react-visibility-sensor": "^5.1.1",
-    "sass": "^1.81.1",
     "slick-carousel": "^1.8.1",
     "swiper": "^11.1.15",
     "typewriter-effect": "^2.21.0",
@@ -32,6 +31,9 @@
   },
   "devDependencies": {
     "eslint": "9.16.0",
-    "eslint-config-next": "15.0.3"
+    "eslint-config-next": "15.0.3",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.82.0",
+    "sass-loader": "^16.0.4"
   }
 }

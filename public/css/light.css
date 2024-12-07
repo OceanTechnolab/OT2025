@@ -5433,6 +5433,25 @@ body {
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
+/* New styles for `image-container` */
+.image-container {
+  position:relative; /* Bootstrap relative positioning*/
+  overflow:hidden;  /*Bootstrap overflow hidden*/
+  height: 300px; /* Adjust height*/
+  width: 100%;   /* Full width of the container*/
+
+  img {
+    w:100;        /* Bootstrap full width*/
+    h:auto;       /*Bootstrap auto height*/
+    transform: translateY(0); /* Initial position*/
+    transition: transform 14.952s ease, 20.00s ease; /* Hover effect transition*/
+  }
+
+  &:hover img {
+    transform: translateY(-1869px); /* Move image upwards*/
+  }
+}
+/*end of new style for image-container*/
 
 .portfolio-frl .gallery .items .cont {
   margin-bottom: 30px;
