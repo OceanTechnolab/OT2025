@@ -10,8 +10,6 @@ import Portfolio from "../../components/Portfolio/portfolio";
 import FullTestimonials from "../../components/Full-testimonials/full-testimonials";
 import Team2 from "../../components/Team2/team2";
 import Blogs2 from "../../components/blogs/Blogs2/blogs2";
-import IconCloud from "../../components/IconCloud/IconCloud";
-import iconSlugs from "../../data/iconSlugs";
 
 const Homepage2 = () => {
   const navbarRef = React.useRef(null);
@@ -36,7 +34,6 @@ const Homepage2 = () => {
     <LightTheme>
       <Navbar nr={navbarRef} lr={logoRef} theme="themeL" />
       <Intro2 />
-      <IconCloud iconSlugs={iconSlugs} />
       <Services style="4item" />
       <Video2 />
       <Portfolio grid={3} filterPosition="center" />
