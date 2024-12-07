@@ -44,7 +44,7 @@ const Navbar = ({ lr, nr, theme }) => {
           <ul className="navbar-nav ml-auto">
             <li className="nav-item dropdown" onClick={handleDropdown}>
               <div className="nav-item">
-                <Link href={`/homepage/home2-light`} className="nav-link">Home</Link>
+                <Link href={`/`} className="nav-link">Home</Link>
               </div>
             </li>
             <li className="nav-item">

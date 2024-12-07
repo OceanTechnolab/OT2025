@@ -28,9 +28,6 @@ const Intro2 = ({ sliderRef }) => {
           </div>
           <div className="col-lg-6">
           <IconCloud iconSlugs={iconSlugs} />
-            {/* <div className="img">
-              <img src="/img/slid/001.jpg" alt="" />
-            </div> */}
           </div>
         </div>
       </div>
