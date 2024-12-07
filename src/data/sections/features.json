@@ -1,26 +1,62 @@
 [
     {
         "id": 1,
-        "icon": "pe-7s-paint-bucket",
-        "title": "Graphic Design",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+        "icon": "pe-7s-browser",
+        "title": "Website Development",
+        "content": "Create visually stunning, fast, and responsive websites tailored to your brand’s identity."
     },
     {
         "id": 2,
-        "icon": "pe-7s-phone",
-        "title": "Web & Mobile Design",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit."
+        "icon": "pe-7s-global",
+        "title": "Web Application Development",
+        "content": "Build high-performance web applications that enhance user experiences and streamline processes."
     },
     {
         "id": 3,
-        "icon": "pe-7s-display1",
-        "title": "Social Media Marketing",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit."
+        "icon": "pe-7s-tools",
+        "title": "Custom Software Development",
+        "content": "Deliver bespoke software solutions crafted to meet the unique demands of your business."
     },
     {
         "id": 4,
-        "icon": "pe-7s-diskette",
-        "title": "Custom Software Devlopment",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+        "icon": "pe-7s-phone",
+        "title": "Mobile App Development",
+        "content": "Design and develop innovative mobile applications for iOS and Android, tailored to your users."
+    },
+    {
+        "id": 5,
+        "icon": "pe-7s-cloud",
+        "title": "Cloud Solutions",
+        "content": "Empower your business with scalable and secure cloud services for improved agility and growth."
+    },
+    {
+        "id": 6,
+        "icon": "pe-7s-photo-gallery",
+        "title": "UI/UX Design",
+        "content": "Enhance usability with intuitive and aesthetically pleasing designs tailored to your users' needs."
+    },
+    {
+        "id": 7,
+        "icon": "pe-7s-config",
+        "title": "DevOps & IT Consulting",
+        "content": "Optimize operations and streamline workflows with expert DevOps and IT consulting services."
+    },
+    {
+        "id": 8,
+        "icon": "pe-7s-graph1",
+        "title": "Data Analytics & AI Integration",
+        "content": "Leverage data and AI-powered insights to drive smarter business decisions and innovation."
+    },
+    {
+        "id": 9,
+        "icon": "pe-7s-diamond",
+        "title": "ERP Consulting",
+        "content": "Streamline your business operations with tailored ERP consulting and implementation services."
+    },
+    {
+        "id": 10,
+        "icon": "pe-7s-headphones",
+        "title": "Maintenance & Support",
+        "content": "Ensure your systems run smoothly with proactive maintenance and round-the-clock support."
     }
 ]
