@@ -62,12 +62,12 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
             <div
               className={`${
                 grid === 3
-                  ? "col-lg-4 col-md-3"
+                  ? "col-lg-4 col-md-6"
                   : grid === 2
                   ? "col-md-6"
                   : "col-12"
               } items graphic wow fadeInUp`}
-              data-wow-delay=".4s"
+              data-wow-delay=".2000s"
             >
               <div className="image-container">
                 <Link href={`/project-details2/project-details2-dark`} className="imago wow">
