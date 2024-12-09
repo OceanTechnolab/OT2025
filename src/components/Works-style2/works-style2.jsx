@@ -96,12 +96,12 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
             >
               <div className="image-container">
                 <Link href={`/project-details2/project-details2-dark`} className="imago wow">
-                  <img src="/img/portfolio/portfolio/1/2.jpg" alt="image" />
+                  <img src="/img/portfolio/portfolio/WorkCategory/ClothingSite2.webp" alt="image" />
                   <div className="item-img-overlay"></div>
                 </Link>
               </div>
               <div className="cont">
-                <h6>Through The Breaking</h6>
+                <h6>Clothing Site</h6>
                 <span>
                   <Link href="/works3/works3-dark">Design</Link>,
                   <Link href="/works3/works3-dark">WordPress</Link>
@@ -119,14 +119,14 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               } items brand wow fadeInUp`}
               data-wow-delay=".1s"
             >
-              <div className="item-img">
+              <div className="image-container">
                 <Link href={`/project-details2/project-details2-dark`} className="imago wow">
-                  <img src="/img/portfolio/portfolio/1/3.jpg" alt="image" />
+                  <img src="/img/portfolio/portfolio/WorkCategory/ImmigrationServices3.webp" alt="image" />
                   <div className="item-img-overlay"></div>
                 </Link>
               </div>
               <div className="cont">
-                <h6>Create With Creatives</h6>
+                <h6>Immigration Services</h6>
                 <span>
                   <Link href="/works3/works3-dark">Design</Link>,
                   <Link href="/works3/works3-dark">WordPress</Link>
@@ -144,14 +144,14 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               } items graphic wow fadeInUp`}
               data-wow-delay=".1s"
             >
-              <div className="item-img">
+              <div className="image-container">
                 <Link href={`/project-details2/project-details2-dark`} className="imago wow">
-                  <img src="/img/portfolio/portfolio/1/4.jpg" alt="image" />
+                  <img src="/img/portfolio/portfolio/WorkCategory/OrthopedicManufacturer4.webp" alt="image" />
                   <div className="item-img-overlay"></div>
                 </Link>
               </div>
               <div className="cont">
-                <h6>Energies of Love</h6>
+                <h6>Orthopedic Manufacture</h6>
                 <span>
                   <Link href="/works3/works3-dark">Design</Link>,
                   <Link href="/works3/works3-dark">WordPress</Link>
@@ -169,14 +169,14 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               } items web wow fadeInUp`}
               data-wow-delay=".1s"
             >
-              <div className="item-img">
+              <div className="image-container">
                 <Link href={`/project-details2/project-details2-dark`} className="imago wow">
-                  <img src="/img/portfolio/portfolio/1/5.jpg" alt="image" />
+                  <img src="/img/portfolio/portfolio/WorkCategory/PharmaceuticalCompany5.webp" alt="image" />
                   <div className="item-img-overlay"></div>
                 </Link>
               </div>
               <div className="cont">
-                <h6>See It Yourself</h6>
+                <h6>Pharmaceutical Company</h6>
                 <span>
                   <Link href="/works3/works3-dark">Design</Link>,
                   <Link href="/works3/works3-dark">WordPress</Link>
@@ -194,14 +194,14 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               } items brand wow fadeInUp`}
               data-wow-delay=".1s"
             >
-              <div className="item-img">
+              <div className="image-container">
                 <Link href={`/project-details2/project-details2-dark`} className="imago wow">
-                  <img src="/img/portfolio/portfolio/1/6.jpg" alt="image" />
+                  <img src="/img/portfolio/portfolio/WorkCategory/HerbalOnlineStore6.webp" alt="image" />
                   <div className="item-img-overlay"></div>
                 </Link>
               </div>
               <div className="cont">
-                <h6>Blast From The Past</h6>
+                <h6>Herbal Products</h6>
                 <span>
                   <Link href="/works3/works3-dark">Design</Link>,
                   <Link href="/works3/works3-dark">WordPress</Link>

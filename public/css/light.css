@@ -5441,8 +5441,8 @@ body {
   width: 100%;   /* Full width of the container*/
 
   img {
-    w:100;        /* Bootstrap full width*/
-    h:auto;       /*Bootstrap auto height*/
+    width:100;        /* Bootstrap full width*/
+    height:auto;       /*Bootstrap auto height*/
     transform: translateY(0); /* Initial position*/
     transition: transform 14.952s ease, 20.00s ease; /* Hover effect transition*/
   }
