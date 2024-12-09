@@ -5437,19 +5437,32 @@ body {
 .image-container {
   position:relative; /* Bootstrap relative positioning*/
   overflow:hidden;  /*Bootstrap overflow hidden*/
-  height: 300px; /* Adjust height*/
+  height: 400px; /* Adjust height*/
   width: 100%;   /* Full width of the container*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  border-radius: 8px; 
 
   img {
     width:100;        /* Bootstrap full width*/
     height:auto;       /*Bootstrap auto height*/
+    object-fit: contain;
     transform: translateY(0); /* Initial position*/
-    transition: transform 14.952s ease, 20.00s ease; /* Hover effect transition*/
+    transition: transform 14.952s ease, 15.00s ease; /* Hover effect transition*/
+    opacity: 0.9;
   }
 
   &:hover img {
-    transform: translateY(-1869px); /* Move image upwards*/
+    transform: translateY(-850px); /* Move image upwards*/
+    opacity: 1;
   }
+  &:hover{
+    box-shadow: 0px 8px 15px rgba(0,0,0,0.3);
+    transform: scale(1.02);
+    border-radius: 8px;
+  } 
 }
 /*end of new style for image-container*/
 
