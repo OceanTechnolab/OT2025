@@ -5437,7 +5437,7 @@ body {
 .image-container {
   position:relative; /* Bootstrap relative positioning*/
   overflow:hidden;  /*Bootstrap overflow hidden*/
-  height: 400px; /* Adjust height*/
+  height: 500px; /* Adjust height*/
   width: 100%;   /* Full width of the container*/
   display: flex;
   justify-content: top;
@@ -5462,6 +5462,7 @@ body {
     box-shadow: 0px 8px 15px rgba(0,0,0,0.3);
     transform: scale(1.02);
     border-radius: 8px;
+    outline: #059dff solid 1px;
   } 
 }
 /*end of new style for image-container*/
