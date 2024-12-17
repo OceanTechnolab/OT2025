@@ -5440,8 +5440,8 @@ body {
   height: 400px; /* Adjust height*/
   width: 100%;   /* Full width of the container*/
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: top;
+  align-items: top;
   background-color: #f0f0f0;
   border-radius: 8px; 
 

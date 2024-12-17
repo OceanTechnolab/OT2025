@@ -208,6 +208,32 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
                 </span>
               </div>
             </div>
+
+
+            <div
+              className={`${
+                grid === 3
+                  ? "col-lg-4 col-md-6"
+                  : grid === 2
+                  ? "col-md-6"
+                  : "col-12"
+              } items brand wow fadeInUp`}
+              data-wow-delay=".1s"
+            >
+              <div className="image-container">
+                <Link href={`https://apexoverseas.co.in/`} className="imago wow" target="_blank">
+                  <img src="/img/portfolio/portfolio/WorkCategory/apexoverseas-co-by-ocean-technolab.webp" alt="image" />
+                  <div className="item-img-overlay"></div>
+                </Link>
+              </div>
+              <div className="cont">
+                <h6>Herbal Products</h6>
+                <span>
+                  <Link href="/works3/works3-dark">Design</Link>,
+                  <Link href="/works3/works3-dark">WordPress</Link>
+                </span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
