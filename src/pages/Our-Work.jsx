@@ -1,11 +1,11 @@
 import React from "react";
-import DarkTheme from "../../layouts/Dark";
-import Navbar from "../../components/Navbar/navbar";
-import Footer from "../../components/Footer/footer";
-import WorksHeader from "../../components/Works-header/works-header";
-import WorksStyle1 from "../../components/Works-style1/works-style1";
+import LightTheme from "../layouts/Light";
+import Navbar from "../components/Navbar/navbar";
+import Footer from "../components/Footer/footer";
+import WorksHeader from "../components/Works-header/works-header";
+import WorksStyle2 from "../components/Works-style2/works-style2";
 
-const WorksDark = () => {
+const Works2Light = () => {
   const fixedHeader = React.useRef(null);
   const MainContent = React.useRef(null);
   const navbarRef = React.useRef(null);
@@ -36,21 +36,21 @@ const WorksDark = () => {
   }, [fixedHeader, MainContent, navbarRef]);
 
   return (
-    <DarkTheme>
+    <LightTheme>
       <div className="circle-bg">
         <div className="circle-color fixed">
           <div className="gradient-circle"></div>
           <div className="gradient-circle two"></div>
         </div>
       </div>
-      <Navbar nr={navbarRef} lr={logoRef} />
-        <WorksHeader sliderRef={fixedHeader} />
+      <Navbar nr={navbarRef} lr={logoRef} theme="themeL" />
+      <WorksHeader sliderRef={fixedHeader} />
       <div ref={MainContent} className="main-content">
-        <WorksStyle1 />
+        <WorksStyle2 grid={3} filterPosition="center" />
         <Footer />
       </div>
-    </DarkTheme>
+    </LightTheme>
   );
 };
 
-export default WorksDark;
+export default Works2Light;
