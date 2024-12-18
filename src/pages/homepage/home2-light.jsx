@@ -38,10 +38,7 @@ const Homepage2 = () => {
       <Services style="4item" />
       <Video2 />
       <Portfolio grid={3} filterPosition="center" />
-      <Marquee reverse pauseOnHover repeat={3}>
-        <div>item1</div>
-        <div>item2</div>
-        <div>item3</div>
+      <Marquee reverse pauseOnHover repeat={2}>
       </Marquee>
       {/*<FullTestimonials noPadding />*/}
       <Team2 />

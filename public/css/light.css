@@ -5470,33 +5470,32 @@ body {
 
 /*Start of marquee styling*/
 
-@keyframes marquee {
+.marquee-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.marquee-row {
+  display: flex;
+  animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
   0% {
-    transform: translateX(100%);
+    transform: translateX(0);
   }
   100% {
     transform: translateX(-100%);
   }
 }
 
-@keyframes marquee-vertical {
-  0% {
-    transform: translateY(100%);
-  }
-  100% {
-    transform: translateY(-100%);
-  }
-}
-
-.animate-marquee {
-  animation: marquee var(--duration) linear infinite;
-}
-
-.animate-marquee-vertical {
-  animation: marquee-vertical var(--duration) linear infinite;
+.group-hover\:animation-play-state-paused:hover {
+  animation-play-state: paused !important;
 }
 
 /*End of marquee styling*/
+
 .portfolio-frl .gallery .items .cont {
   margin-bottom: 30px;
 }
