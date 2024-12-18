@@ -126,7 +126,7 @@ h6 {
 
 p {
   color: #888;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 300;
   line-height: 2;
   margin: 0;
@@ -2513,7 +2513,7 @@ body {
 .slider .txt-botm .swiper-nav-ctrl span {
   color: #111;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .slider .txt-botm .swiper-nav-ctrl:after {
@@ -2577,7 +2577,7 @@ body {
   color: #fff;
   position: relative;
   margin: 0 10px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 100;
 }
 
@@ -2850,7 +2850,7 @@ body {
 }
 
 .arch-slider .parallax-slider .explore a i {
-  font-size: 16px;
+  font-size: 14px;
   margin-left: 10px;
 }
 
@@ -3011,7 +3011,7 @@ body {
 }
 
 .freelancre .states li p {
-  font-size: 16px;
+  font-size: 14px;
   text-transform: uppercase;
 }
 
@@ -3129,7 +3129,7 @@ body {
   color: #fff;
   position: relative;
   margin: 0 10px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 100;
 }
 
@@ -3162,7 +3162,7 @@ body {
 }
 
 .slider-bus .caption .thin {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 8px;
@@ -3312,7 +3312,7 @@ body {
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .page-header.proj-det.bg-img .item p a {
@@ -3869,7 +3869,7 @@ body {
 }
 
 .about .ftbox ul li h6 {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
 }
 
@@ -3988,7 +3988,7 @@ body {
 }
 
 .agency .img .exp h6 {
-  font-size: 16px;
+  font-size: 14px;
   color: #999;
   margin-top: 5px;
   position: relative;
@@ -4503,7 +4503,7 @@ body {
 
 .services .mas-item h6 {
   font-weight: 600;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.7;
 }
 
@@ -4514,7 +4514,7 @@ body {
   height: 45px;
   line-height: 45px;
   text-align: center;
-  font-size: 16px;
+  font-size: 14px;
   border-radius: 50%;
   border: 2px solid rgba(255, 255, 255, 0.05);
 }
@@ -4975,7 +4975,7 @@ body {
 }
 
 .clients-brand .item .link {
-  font-size: 16px;
+  font-size: 14px;
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
@@ -5019,7 +5019,7 @@ body {
 
 .portfolio .filtering span {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 1px;
   text-transform: uppercase;
   margin: 0 20px;
@@ -5055,7 +5055,7 @@ body {
 
 .portfolio .filtering.smplx span {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 1px;
   text-transform: uppercase;
   margin: 0 20px;
@@ -5343,7 +5343,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .portfolio-cr .items .cont span a {
@@ -5489,7 +5489,7 @@ body {
   padding: 8px 12px;
   background: rgba(0, 0, 0, 0.04);
   margin-right: 5px;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .portfolio.full-bg {
@@ -5693,7 +5693,7 @@ body {
 }
 
 .work-carousel .content .cont h6 {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -5711,7 +5711,7 @@ body {
   text-align: center;
   background: rgba(255, 255, 255, 0.03);
   border-radius: 50%;
-  font-size: 16px;
+  font-size: 14px;
   position: absolute;
   top: calc(50% - 17px);
   right: 15px;
@@ -5780,7 +5780,7 @@ body {
 }
 
 .work-carousel .noraidus .cont h6 {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -6174,7 +6174,7 @@ body {
 }
 
 .skills-circle .cont span {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 300;
   opacity: 0.9;
   margin-bottom: 10px;
@@ -6237,7 +6237,7 @@ body {
   padding: 7px 15px;
   border-radius: 5px;
   background: rgba(0, 0, 0, 0.05);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
 }
 
@@ -6810,7 +6810,7 @@ body {
 
 .block-sec .vid-area .text {
   color: #000;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
   -webkit-transform: rotate(-90deg);
@@ -6860,7 +6860,7 @@ body {
 
 .block-sec .testim-box .head-box h6 {
   color: #2FD3EC;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -6897,7 +6897,7 @@ body {
 }
 
 .block-sec .testim-box .item .info .cont .author-name {
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom: 5px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -6947,7 +6947,7 @@ body {
 
 .blog .item .info {
   margin-bottom: 10px;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .blog .item .info .date {
@@ -6983,7 +6983,7 @@ body {
 }
 
 .blog .item .btn-more a {
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 2px;
 }
 
@@ -7203,7 +7203,7 @@ body {
   padding: 5px 15px;
   background: #2FD3EC;
   color: #222;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   text-align: center;
   z-index: 2;
@@ -7237,7 +7237,7 @@ body {
 }
 
 .blog-list .head a {
-  font-size: 16px;
+  font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 10px;
   margin-top: 40px;
@@ -7297,7 +7297,7 @@ body {
 
 .blog-list .item .info {
   margin-bottom: 15px;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .blog-list .item .info .date {
@@ -7339,11 +7339,11 @@ body {
 .blog-pg .posts .item .content .date {
   margin-right: 15px;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .blog-pg .posts .item .content .date .num {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .blog-pg .posts .item .content .tags {
@@ -7352,7 +7352,7 @@ body {
 }
 
 .blog-pg .posts .item .content .tags a {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   color: #2FD3EC;
   padding-right: 20px;
@@ -7435,7 +7435,7 @@ body {
 }
 
 .blog-pg.single .post .content p {
-  font-size: 16px;
+  font-size: 14px;
   font-family: inherit;
   margin: 30px 0;
 }
@@ -7485,7 +7485,7 @@ body {
 }
 
 .blog-pg.single .post .content .share-info .tags a {
-  font-size: 16px;
+  font-size: 14px;
   margin: 0 10px;
 }
 
@@ -7591,7 +7591,7 @@ body {
 .blog-pg.single .comments-area .item .info h6 span {
   display: block;
   color: #2FD3EC;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   margin-top: 5px;
 }
@@ -8012,7 +8012,7 @@ body {
 }
 
 .contact .cont-info .item h5 {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   color: #333;
   margin: 10px 0;
@@ -8088,7 +8088,7 @@ footer .item li .sm-post p {
 }
 
 footer .item li .sm-post .date {
-  font-size: 16px;
+  font-size: 14px;
   color: #2FD3EC;
 }
 
@@ -8654,7 +8654,7 @@ footer .item .copy-right p a {
   }
 
   h6 {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .progress-wrap {
@@ -8818,7 +8818,7 @@ footer .item .copy-right p a {
   }
 
   .sub-title h6 {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .sec-head h3 {
@@ -8967,7 +8967,7 @@ footer .item .copy-right p a {
   }
 
   .hamenu .menu-links .main-menu .sub-menu li {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .topnav .container-fluid {

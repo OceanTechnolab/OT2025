@@ -81,7 +81,7 @@ h6 {
 
 p {
   color: #9b9b9b;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   line-height: 1.8;
   margin: 0;
@@ -431,7 +431,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 }
 
 .serv-block .content p {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .serv-block .content .butn-more {
@@ -675,7 +675,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 }
 
 .app-process .item p {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 /* ====================== [ End app-process  ] ====================== */
@@ -1040,7 +1040,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 }
 
 .app-testim .item .text p {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 /* ====================== [ End app-testim  ] ====================== */
@@ -1145,7 +1145,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 }
 
 .app-blog .item .cont p {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .app-blog .item .cont .buton {
