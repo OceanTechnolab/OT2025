@@ -39,7 +39,7 @@ const MinimalArea = () => {
                     luctus massa ipsum at tempus eleifend congue lectus bibendum
                   </p>
                 </li>
-                <li className="wow fadeInUp" data-wow-delay=".4s">
+                <li className="wow fadeInUp" data-wow-delay=".1s">
                   <h6>
                     <span>2</span> Our Goals
                   </h6>

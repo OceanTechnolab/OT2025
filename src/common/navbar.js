@@ -14,7 +14,9 @@ export const handleDropdown = (e) => {
     });
   e.target.parentElement.classList.toggle("show");
   e.target.setAttribute("aria-expanded", true);
-  e.target.parentElement.childNodes[1].classList.toggle("show");
+  if (e.target.parentElement.childNodes[1]) {
+    e.target.parentElement.childNodes[1].classList.toggle("show");
+  }
 };
 
 export const handleMobileDropdown = (e) => {

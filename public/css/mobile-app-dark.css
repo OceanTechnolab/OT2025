@@ -1,6 +1,6 @@
 /*-----------------------------------------------------------------------------------
 
-    Theme Name: Vie
+    Theme Name: OCEAN-TECHNOLAB
     Description: ReactJS Creative Agency & Portfolio template
     Author: ThemesCamp
     Author URI: http://themeforest.net/user/ThemesCamp
@@ -81,7 +81,7 @@ h6 {
 
 p {
   color: #9b9b9b;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   line-height: 1.8;
   margin: 0;
@@ -431,7 +431,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 }
 
 .serv-block .content p {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .serv-block .content .butn-more {
@@ -675,7 +675,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 }
 
 .app-process .item p {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 /* ====================== [ End app-process  ] ====================== */
@@ -1040,7 +1040,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 }
 
 .app-testim .item .text p {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 /* ====================== [ End app-testim  ] ====================== */
@@ -1118,7 +1118,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 }
 
 .app-blog .item .cont .tag {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -1133,7 +1133,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 
 .app-blog .item .cont .info a {
   margin-right: 10px;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .app-blog .item .cont .info a:last-of-type {
@@ -1145,7 +1145,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 }
 
 .app-blog .item .cont p {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .app-blog .item .cont .buton {
@@ -1505,7 +1505,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
   height: 40px;
   line-height: 40px;
   text-align: center;
-  font-size: 12px;
+  font-size: 14px;
   border-radius: 50%;
   border: 1px solid rgba(255, 255, 255, 0.1);
   position: relative;

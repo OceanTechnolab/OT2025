@@ -102,90 +102,167 @@ class FullTestimonials extends React.Component {
                   ],
                 }}
               >
-                <div className="item">
-                  <div className="info valign">
-                    <div className="cont">
-                      <div className="author">
-                        <div className="img">
-                          <img src="/img/clients/1.jpg" alt="" />
-                        </div>
-                        <h6 className="author-name color-font">
-                          Alex Regelman
-                        </h6>
-                        <span className="author-details">
-                          Co-founder, Colabrio
-                        </span>
+              <div className="item">
+                <div className="info valign">
+                  <div className="cont">
+                    <div className="author">
+                      <div className="img">
+                        <img src="/img/clients/1.jpg" alt="" />
                       </div>
+                      <h6 className="author-name color-font">True Fx Infotech</h6>
+                      <span className="author-details">Digital Marketing Company</span>
                     </div>
                   </div>
-                  <p>
-                    I would highly recommend Vie Digital. I worked with the team
-                    on an animation for our ‘Click &amp; Collect’ service.
-                  </p>
                 </div>
-                <div className="item">
-                  <div className="info valign">
-                    <div className="cont">
-                      <div className="author">
-                        <div className="img">
-                          <img src="/img/clients/1.jpg" alt="" />
-                        </div>
-                        <h6 className="author-name color-font">
-                          Alex Regelman
-                        </h6>
-                        <span className="author-details">
-                          Co-founder, Colabrio
-                        </span>
+                <p>
+                  Ocean Technolab completely transformed our website into a stunning and user-friendly platform. Their expertise was outstanding. Highly recommended!
+                </p>
+              </div>
+              <div className="item">
+                <div className="info valign">
+                  <div className="cont">
+                    <div className="author">
+                      <div className="img">
+                        <img src="/img/clients/2.jpg" alt="" />
                       </div>
+                      <h6 className="author-name color-font">District98.org</h6>
+                      <span className="author-details">Non-Profit Club of Toastmasters International</span>
                     </div>
                   </div>
-                  <p>
-                    I would highly recommend Vie Digital. I worked with the team
-                    on an animation for our ‘Click &amp; Collect’ service.
-                  </p>
                 </div>
-                <div className="item">
-                  <div className="info valign">
-                    <div className="cont">
-                      <div className="author">
-                        <div className="img">
-                          <img src="/img/clients/1.jpg" alt="" />
-                        </div>
-                        <h6 className="author-name color-font">
-                          Alex Regelman
-                        </h6>
-                        <span className="author-details">
-                          Co-founder, Colabrio
-                        </span>
+                <p>
+                  District98.org's website development with Ocean Technolab was seamless. They perfectly captured our organization's essence, delivering a modern website.
+                </p>
+              </div>
+              <div className="item">
+                <div className="info valign">
+                  <div className="cont">
+                    <div className="author">
+                      <div className="img">
+                        <img src="/img/clients/3.jpg" alt="" />
                       </div>
+                      <h6 className="author-name color-font">mightythread.com</h6>
+                      <span className="author-details">Clothing Store</span>
                     </div>
                   </div>
-                  <p>
-                    I would highly recommend Vie Digital. I worked with the team
-                    on an animation for our ‘Click &amp; Collect’ service.
-                  </p>
                 </div>
-                <div className="item">
-                  <div className="info valign">
-                    <div className="cont">
-                      <div className="author">
-                        <div className="img">
-                          <img src="/img/clients/1.jpg" alt="" />
-                        </div>
-                        <h6 className="author-name color-font">
-                          Alex Regelman
-                        </h6>
-                        <span className="author-details">
-                          Co-founder, Colabrio
-                        </span>
+                <p>
+                  Ocean Technolab exceeded expectations with their creativity. The team's ecommerce expertise created a beautiful and intuitive online store for us.
+                </p>
+              </div>
+              <div className="item">
+                <div className="info valign">
+                  <div className="cont">
+                    <div className="author">
+                      <div className="img">
+                        <img src="/img/clients/4.jpg" alt="" />
                       </div>
+                      <h6 className="author-name color-font">GreenLight Ventures</h6>
+                      <span className="author-details">Startup Incubator</span>
                     </div>
                   </div>
-                  <p>
-                    I would highly recommend Vie Digital. I worked with the team
-                    on an animation for our ‘Click &amp; Collect’ service.
-                  </p>
                 </div>
+                <p>
+                  Working with Ocean Technolab was a pleasure. Their custom software helped us streamline processes while boosting efficiency and scalability.
+                </p>
+              </div>
+              <div className="item">
+                <div className="info valign">
+                  <div className="cont">
+                    <div className="author">
+                      <div className="img">
+                        <img src="/img/clients/5.jpg" alt="" />
+                      </div>
+                      <h6 className="author-name color-font">EduMentor</h6>
+                      <span className="author-details">EdTech Company</span>
+                    </div>
+                  </div>
+                </div>
+                <p>
+                  Ocean Technolab’s mobile app expertise brought our ideas to life. The app design is sleek, functional, and exceeded all our expectations.
+                </p>
+              </div>
+              <div className="item">
+                <div className="info valign">
+                  <div className="cont">
+                    <div className="author">
+                      <div className="img">
+                        <img src="/img/clients/6.jpg" alt="" />
+                      </div>
+                      <h6 className="author-name color-font">PathWell Clinic</h6>
+                      <span className="author-details">Healthcare Provider</span>
+                    </div>
+                  </div>
+                </div>
+                <p>
+                  The Ocean Technolab team created a professional, easy-to-navigate website for our clinic. It’s been well-received by both patients and staff.
+                </p>
+              </div>
+              <div className="item">
+                <div className="info valign">
+                  <div className="cont">
+                    <div className="author">
+                      <div className="img">
+                        <img src="/img/clients/7.jpg" alt="" />
+                      </div>
+                      <h6 className="author-name color-font">Zenith ERP</h6>
+                      <span className="author-details">ERP Solutions Provider</span>
+                    </div>
+                  </div>
+                </div>
+                <p>
+                  Ocean Technolab’s ERP consulting services were exceptional. They provided us with tailored solutions that improved efficiency and productivity.
+                </p>
+              </div>
+              <div className="item">
+                <div className="info valign">
+                  <div className="cont">
+                    <div className="author">
+                      <div className="img">
+                        <img src="/img/clients/8.jpg" alt="" />
+                      </div>
+                      <h6 className="author-name color-font">CityGrocer</h6>
+                      <span className="author-details">Ecommerce Store</span>
+                    </div>
+                  </div>
+                </div>
+                <p>
+                  The ecommerce platform Ocean Technolab built was flawless. It has provided our customers with a much better online shopping experience.
+                </p>
+              </div>
+              <div className="item">
+                <div className="info valign">
+                  <div className="cont">
+                    <div className="author">
+                      <div className="img">
+                        <img src="/img/clients/9.jpg" alt="" />
+                      </div>
+                      <h6 className="author-name color-font">NextGen Finance</h6>
+                      <span className="author-details">FinTech Startup</span>
+                    </div>
+                  </div>
+                </div>
+                <p>
+                  Ocean Technolab’s cloud solutions offered us the scalability and reliability needed to support our expanding user base. Excellent services!
+                </p>
+              </div>
+              <div className="item">
+                <div className="info valign">
+                  <div className="cont">
+                    <div className="author">
+                      <div className="img">
+                        <img src="/img/clients/10.jpg" alt="" />
+                      </div>
+                      <h6 className="author-name color-font">Bright Minds Academy</h6>
+                      <span className="author-details">Learning Institution</span>
+                    </div>
+                  </div>
+                </div>
+                <p>
+                  Thanks to Ocean Technolab, we now have a robust and feature-rich website that caters perfectly to our students’ and educators’ needs.
+                </p>
+              </div>
+
               </Slider>
             </div>
           </div>

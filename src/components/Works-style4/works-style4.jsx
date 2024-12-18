@@ -41,7 +41,7 @@ const WorksStyle4 = () => {
           <div className="gallery full-width">
             <div
               className="col-md-6 items graphic lg-mr wow fadeInUp"
-              data-wow-delay=".4s"
+              data-wow-delay=".1s"
             >
               <div className="item-img">
                 <div className="cont">
@@ -68,7 +68,7 @@ const WorksStyle4 = () => {
 
             <div
               className="col-md-6 items web wow fadeInUp"
-              data-wow-delay=".4s"
+              data-wow-delay=".1s"
             >
               <div className="item-img">
                 <div className="cont">
@@ -95,7 +95,7 @@ const WorksStyle4 = () => {
 
             <div
               className="col-md-6 items web wow fadeInUp"
-              data-wow-delay=".4s"
+              data-wow-delay=".1s"
             >
               <div className="item-img">
                 <div className="cont">
@@ -122,7 +122,7 @@ const WorksStyle4 = () => {
 
             <div
               className="col-md-6 items web graphic wow fadeInUp"
-              data-wow-delay=".4s"
+              data-wow-delay=".1s"
             >
               <div className="item-img">
                 <div className="cont">
@@ -149,7 +149,7 @@ const WorksStyle4 = () => {
 
             <div
               className="col-md-6 items brand wow fadeInUp"
-              data-wow-delay=".4s"
+              data-wow-delay=".1s"
             >
               <div className="item-img">
                 <div className="cont">
@@ -176,7 +176,7 @@ const WorksStyle4 = () => {
 
             <div
               className="col-md-6 items brand wow fadeInUp"
-              data-wow-delay=".4s"
+              data-wow-delay=".1s"
             >
               <div className="item-img">
                 <div className="cont">

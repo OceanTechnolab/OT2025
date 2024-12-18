@@ -1,6 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import Link from 'next/link'
+import IconCloud from "../../components/IconCloud/IconCloud";
+import iconSlugs from "../../data/iconSlugs";
 
 const Intro2 = ({ sliderRef }) => {
   return (
@@ -10,14 +12,14 @@ const Intro2 = ({ sliderRef }) => {
           <div className="col-lg-6 valign">
             <div className="cont md-mb50">
               <div className="sub-title mb-5">
-                <h6>Ocean TechNoLab</h6>
+                <h6>Reimagine Your Digital Future</h6>
               </div>
-              <h1 className="mb-10 fw-600">Trusted Software Development Company</h1>
+              <h1 className="mb-10 fw-600">Your Trusted Partner in Software Innovation</h1>
               <p>
-              We offer expert services in Website, Mobile App Development, and Digital Marketing with a dedicated team committed to excellence and timely delivery.
+              Transform your ideas into reality with our expert team by your side. From stunning websites to cutting-edge mobile apps and impactful digital marketing, we craft tailored solutions with a passion for excellence and a promise of timely delivery.
               </p>
               <Link
-                href={`/about/about-dark`}
+                href={`/about/about-light`}
                 className="butn bord curve mt-30"
               >
                 <span>About Us</span>
@@ -25,9 +27,7 @@ const Intro2 = ({ sliderRef }) => {
             </div>
           </div>
           <div className="col-lg-6">
-            <div className="img">
-              <img src="/img/slid/001.jpg" alt="" />
-            </div>
+          <IconCloud iconSlugs={iconSlugs} />
           </div>
         </div>
       </div>
