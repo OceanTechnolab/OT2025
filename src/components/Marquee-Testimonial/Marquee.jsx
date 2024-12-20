@@ -38,10 +38,33 @@ const testimonials = [
     details: "Healthcare Provider",
     text: "The Ocean Technolab team created a professional, easy-to-navigate website for our clinic. It’s been well-received by both patients and staff.",
   },
+  
+  {
+    img: "/img/clients/4.jpg",
+    name: "Zenith ERP",
+    details: "ERP Solutions Provider",
+    text: "Ocean Technolab’s ERP consulting services were exceptional. They provided us with tailored solutions that improved efficiency and productivity.",
+  },
+  {
+    img: "/img/clients/4.jpg",
+    name: "CityGrocer",
+    details: "Ecommerce Store",
+    text: "The ecommerce platform Ocean Technolab built was flawless. It has provided our customers with a much better online shopping experience.",
+  },
+
 ];
 
 const Marquee = ({ className, pauseOnHover = false, ...props }) => {
   const [isClient, setIsClient] = useState(false);
+  const [pausedRow, setPausedRow] = useState(null);
+
+  const handleMouseEnter = (rowIndex) => {
+    setPausedRow(rowIndex);
+  };
+
+  const handleMouseLeave = () => {
+    setPausedRow(null);
+  };
 
   useEffect(() => {
     setIsClient(true);
@@ -53,31 +76,36 @@ const Marquee = ({ className, pauseOnHover = false, ...props }) => {
   const firstRow = testimonials.slice(0, half);
   const secondRow = testimonials.slice(half);
 
+  const createRow = (row, rowIndex) => {
+    return (
+      <div
+        key={rowIndex}
+        className={classNames(
+          "marquee-row",
+          rowIndex % 2 === 0 ? "marquee-left" : "marquee-right",
+          pausedRow === rowIndex && "paused-animation"
+        )}
+        onMouseEnter={() => handleMouseEnter(rowIndex)}
+        onMouseLeave={handleMouseLeave}
+      >
+        {[...row, ...row].map((testimonial, index) => (
+          <div key={index} className="testimonial-item">
+            <div className="image-cont">
+              <img src={testimonial.img} alt={testimonial.name} />
+            </div>
+            <h6>{testimonial.name}</h6>
+            <span className="author-details">{testimonial.details}</span>
+            <p>{testimonial.text}</p>
+          </div>
+        ))}
+      </div>
+    );
+  };
+
   return (
     <div className="marquee-container">
-      {[firstRow, secondRow].map((row, rowIndex) => (
-        <div
-          key={rowIndex}
-          className={classNames(
-            "marquee-row",
-            rowIndex % 2 === 0 ? "marquee-left" : "marquee-right"
-          )}
-        >
-          {row.map((testimonial, index) => (
-            <div key={index} className="testimonial-item">
-              <div className="image-container">
-                <img
-                  src={testimonial.img}
-                  alt={testimonial.name}
-                />
-              </div>
-              <h6>{testimonial.name}</h6>
-              <span className="author-details">{testimonial.details}</span>
-              <p>{testimonial.text}</p>
-            </div>
-          ))}
-        </div>
-      ))}
+      {createRow(firstRow, 0)}
+      {createRow(secondRow, 1)}
     </div>
   );
 };

@@ -38,8 +38,8 @@ const Homepage2 = () => {
       <Services style="4item" />
       <Video2 />
       <Portfolio grid={3} filterPosition="center" />
-      <Marquee reverse pauseOnHover repeat={2}>
-      </Marquee>
+      <Marquee />
+      
       {/*<FullTestimonials noPadding />*/}
       <Team2 />
       <Blogs2 />
