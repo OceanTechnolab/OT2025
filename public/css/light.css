@@ -5487,7 +5487,7 @@ body {
   white-space: nowrap;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-duration: 30s;
+  animation-duration: 40s;
 }
 
 .marquee-left {
@@ -5508,7 +5508,7 @@ body {
 
 @keyframes scroll-left {
   from {
-    transform: translateX(0%);
+    transform: translateX(100%);
   }
   to {
     transform: translateX(-100%);
@@ -5517,7 +5517,7 @@ body {
 
 @keyframes scroll-right {
   from {
-    transform: translateX(0%);
+    transform: translateX(-100%);
   }
   to {
     transform: translateX(100%);
@@ -5551,20 +5551,20 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 5;  /* Allow up to 5 lines */
+  -webkit-line-clamp: 5;  
   -webkit-box-orient: vertical;
   white-space: normal;
 }
 
 .testimonial-item:hover {
-  animation-play-state: paused;  /* Pause row on hover */
+  animation-play-state: paused;  
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
   transform: translateY(-5px);
   outline: #059dff solid 1px;
 }
 
 .marquee-row:hover {
-  animation-play-state: paused; /* Pause full row */
+  animation-play-state: paused; 
 }
 
 /*End of marquee styling*/

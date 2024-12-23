@@ -37,9 +37,6 @@ const testimonials = [
 const Marquee = ({ speed = 30 }) => {
   const rowRefs = useRef([]);
 
-  const firstRow = testimonials.slice(0, Math.ceil(testimonials.length / 2));
-  const secondRow = testimonials.slice(Math.ceil(testimonials.length / 2));
-
   useEffect(() => {
     rowRefs.current.forEach((ref) => {
       if (ref) {
@@ -49,6 +46,11 @@ const Marquee = ({ speed = 30 }) => {
       }
     });
   }, []);
+
+const half = Math.ceil(testimonials.length / 2)
+const firstRow = testimonials.slice(0, half);
+const secondRow = testimonials.slice(half);
+
  
       const renderRow = (row,rowIndex)=> (
         <div
