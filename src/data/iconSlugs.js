@@ -81,7 +81,14 @@ const iconSlugs = [
   "csharp",
   // Miscellaneous
   "graphql",
-  "rust"
+  "rust",
+  'amazonaws',
+  'android',
+  'androidstudio',
+  'antdesign',
+  'typescript',
+  'vercel',
+  'visualstudiocode'
 ];
 
 export default iconSlugs;
