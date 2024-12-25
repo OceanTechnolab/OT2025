@@ -37,3 +37,18 @@ module.exports = {
     return config;
   },
 };
+
+// next.config.js
+module.exports = {
+  output: 'export',
+  webpack(config, { isServer }) {
+    if (!isServer) {
+      // Ensures swiper CSS works on the client-side
+      config.resolve.fallback = {
+        fs: false,
+        path: false,
+      };
+    }
+    return config;
+  },
+};

@@ -7,7 +7,12 @@ import "swiper/css/effect-fade";
 import "swiper/css";
 import "swiper/css/navigation";
 import removeSlashFromPagination from "../../common/removeSlashpagination";
+
+// Suppress ESLint warning for this line
+/* eslint-disable react-hooks/rules-of-hooks */
 SwiperCore.use([Navigation, Pagination, EffectFade]);
+/* eslint-enable react-hooks/rules-of-hooks */
+
 
 const CaseStudy = () => {
   const [load, setLoad] = React.useState(true);
