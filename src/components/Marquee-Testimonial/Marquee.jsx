@@ -32,36 +32,65 @@ const testimonials = [
     details: "EdTech Company",
     text: "Ocean Technolab's mobile app expertise brought our ideas to life. The app design is sleek, functional, and exceeded all our expectations.",
   },
+  {
+    img: "/img/clients/4.jpg",
+    name: "PathWell Clinic",
+    details: "Healthcare Provider",
+    text: " The Ocean Technolab team created a professional, easy-to-navigate website for our clinic. It’s been well-received by both patients and staff.",
+  },
+  {
+    img: "/img/clients/4.jpg",
+    name: "Zenith ERP",
+    details: "ERP Solutions Provider",
+    text: "Ocean Technolab’s ERP consulting services were exceptional. They provided us with tailored solutions that improved efficiency and productivity.",
+  },
+  {
+    img: "/img/clients/4.jpg",
+    name: "CityGrocer",
+    details: "Ecommerce Store",
+    text: "The ecommerce platform Ocean Technolab built was flawless. It has provided our customers with a much better online shopping experience.",
+  },
+  
 ];
 
-const Marquee = ({ speed = 30 }) => {
-  const rowRefs = useRef([]);
+const Marquee = () => {
+  const [isHovered,setIsHovered] = useState(false);
+  const marqueeRef = useRef(null);
 
-  useEffect(() => {
-    rowRefs.current.forEach((ref) => {
-      if (ref) {
-        const clone = ref.cloneNode(true);
-        clone.setAttribute("aria-hidden", "true");
-        ref.parentNode.appendChild(clone);
+  useEffect(()=> {
+    const cloneItems = () => {
+      if (marqueeRef.current){
+        const rows = marqueeRef.current.children;
+        Array.from(rows).forEach((row)=>{
+
+          const rowWdith = row.scrollWidth;
+          const containerWidth = marqueeRef.current.clientWidth;
+          const repeatCount = Math.ceil(containerWidth / rowWdith) + 1;
+          
+          row.innerHTML += row.innerHTML.repeat(repeatCount);
+        });
       }
-    });
+    };
+    cloneItems();
   }, []);
 
-const half = Math.ceil(testimonials.length / 2)
-const firstRow = testimonials.slice(0, half);
-const secondRow = testimonials.slice(half);
-
+  const handleHover = (hovering) => {
+    setIsHovered(hovering);
+  };
  
       const renderRow = (row,rowIndex)=> (
         <div
           key={rowIndex}
-          ref={(el) => (rowRefs.current[rowIndex] = el)}
+          // ref={(el) => (rowRefs.current[rowIndex] = el)}
           className={classNames(
             "marquee-row",
-            rowIndex % 2 === 0 ? "marquee-left" : "marquee-right"
+            rowIndex % 2 === 0 ? "marquee-left" : "marquee-right",
+            { paused : isHovered }
           )}
+          onMouseEnter={()=> handleHover(true)}
+          onMouseLeave={()=> handleHover(false)}
         >
-          {testimonials.map((item, i) => (
+          {row.map((item, i) => (
             <div key={i} className="testimonial-item">
               <div className="image-cont">
                 <img src={item.img} alt={item.name} />
@@ -74,10 +103,15 @@ const secondRow = testimonials.slice(half);
         </div>
       );
 
+
+const half = Math.ceil(testimonials.length / 2)
+const firstRow = testimonials.slice(0, half);
+const secondRow = testimonials.slice(half);
+
 return (
-  <div className="marquee-container">
+  <div className="marquee-container" ref={marqueeRef}>
     {renderRow(firstRow,0)}
-    {renderRow(secondRow,1  )}
+    {renderRow(secondRow,1)}
   </div>
 );
 
