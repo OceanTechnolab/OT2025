@@ -5470,80 +5470,86 @@ body {
 
 
 
-/*Start of marquee styling*/
-.marquee-container {
+/*Start of marquee styling*/.marquee-container {
+  position: relative;
+  height: auto;
+  width: 100%;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
-  position: relative;
-  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  
 }
 
-.marquee-row {
-  display: flex;
+.marquee {
+  padding-top: auto;
   padding: 5px;
-  flex-shrink: 0;
-  gap: 1rem;
+  gap: 1.5rem;
   white-space: nowrap;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-duration: 40s;
-}
-
-.marquee-left {
-  animation-name: scroll-left;
-}
-
-.marquee-right {
-  animation-name: scroll-right;
-}
-
-.image-cont {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  overflow: hidden;
-  margin: 0 auto 1rem;
-}
-
-@keyframes scroll-left {
-  from {
-    transform: translateX(0%);
-  }
-  to {
-    transform: translateX(-100%);
-  }
-}
-
-@keyframes scroll-right {
-  from {
-    transform: translateX(0%);
-  }
-  to {
-    transform: translateX(100%);
-  }
-}
-
-.testimonial-item {
-  width: 300px;
-  margin: 5px;
   flex-shrink: 0;
-  background-color: #fff;
-  padding: 1rem;
-  border-radius: 8px;
-  text-align: center;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  white-space: normal; 
-  overflow: hidden;
-  text-overflow: ellipsis;
-  height: auto; 
+  display: flex;
+  animation: marquee 20s linear infinite;
+}
+
+.marquee.reverse {
+  animation: marquee-reverse 20s linear infinite;
+}
+
+.review-card {
+  width: 300px;
+  margin: 0 10px;
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.8);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  transition: background-color 0.3s;
+}
+
+.review-card:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+
+  animation-play-state: paused;  
+   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+  outline: #059dff solid 1px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.testimonial-item p {
+.review-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.review-name {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.review-username {
+  font-size: 0.875rem;
+  color: rgba(0, 0, 0, 0.6);
+  display: -webkit-box;
+  -webkit-line-clamp: 5;  
+  -webkit-box-orient: vertical;
+  white-space: normal;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.review-body {
   font-size: 0.875rem;
   color: #555555;
   line-height: 1.5;
@@ -5556,15 +5562,22 @@ body {
   white-space: normal;
 }
 
-.testimonial-item:hover {
-  animation-play-state: paused;  
-  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
-  transform: translateY(-5px);
-  outline: #059dff solid 1px;
+@keyframes marquee {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
 }
 
-.marquee-row:hover {
-  animation-play-state: paused; 
+@keyframes marquee-reverse {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(100%);
+  }
 }
 
 /*End of marquee styling*/

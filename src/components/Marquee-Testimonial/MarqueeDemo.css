@@ -1,0 +1,86 @@
+.marquee-container {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .marquee {
+    display: flex;
+    animation: marquee 20s linear infinite;
+  }
+  
+  .marquee.reverse {
+    animation: marquee-reverse 20s linear infinite;
+  }
+  
+  .review-card {
+    width: 250px;
+    margin: 0 10px;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: background-color 0.3s;
+  }
+  
+  .review-card:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
+  .review-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .review-name {
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  
+  .review-username {
+    font-size: 0.875rem;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .review-body {font-size: 0.875rem;
+    color: #555555;
+    line-height: 1.5;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;  
+    -webkit-box-orient: vertical;
+    white-space: normal;
+  }
+  
+  @keyframes marquee {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  @keyframes marquee-reverse {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(100%);
+    }
+  }
+  

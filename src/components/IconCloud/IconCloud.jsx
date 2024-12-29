@@ -52,6 +52,7 @@ const IconCloud = ({ iconSlugs }) => {
       }}
       // https://github.com/teaguestockwell/react-icon-cloud/blob/a24fbc4bedd0607472610bc65f4f726e2f03e13a/src/types/options.ts (for all options)
       options={{
+        animTiming: "Smooth",
         reverse: true,
         depth: 1,
         wheelZoom: false,
@@ -62,8 +63,8 @@ const IconCloud = ({ iconSlugs }) => {
         clickToFront: 500,
         tooltipDelay: 0,
         outlineColour: "#0000",
-        maxSpeed: 0.04,
-        minSpeed: 0.02,
+        maxSpeed: 0.02,
+        minSpeed: 0.003,
       }}
     >
       {renderedIcons}
