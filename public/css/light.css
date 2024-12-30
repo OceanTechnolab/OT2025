@@ -5433,161 +5433,6 @@ body {
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
-/* New styles for `image-container` */
-.image-container {
-  position:relative; /* Bootstrap relative positioning*/
-  overflow:hidden;  /*Bootstrap overflow hidden*/
-  height: 500px; /* Adjust height*/
-  width: 100%;   /* Full width of the container*/
-  display: flex;
-  justify-content: top;
-  align-items: top;
-  background-color: #f0f0f0;
-  border-radius: 8px; 
-
-  img {
-    width:100;        /* Bootstrap full width*/
-    height:auto;       /*Bootstrap auto height*/
-    object-fit: contain;
-    transform: translateY(0); /* Initial position*/
-    transition: transform 14.952s ease, 15.00s ease; /* Hover effect transition*/
-    opacity: 0.9;
-  }
-
-  &:hover img {
-    transform: translateY(-850px); /* Move image upwards*/
-    opacity: 1;
-  }
-  &:hover{
-    box-shadow: 0px 8px 15px rgba(0,0,0,0.3);
-    transform: scale(1.02);
-    border-radius: 8px;
-    outline: #059dff solid 1px;
-  } 
-}
-/*end of new style for image-container*/
-
-
-
-
-/*Start of marquee styling*/
-.marquee-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  width: 100%;
-  height: auto;
-  gap: 20px;
-  position: relative;
-}
-
-.marquee {
-
-  padding-top: 10;
-  margin: 5px;
-  padding: 5px;
-  gap: 1.5rem;
-  white-space: nowrap;
-  flex-shrink: 0;
-  display: flex;
-  animation: marquee 20s linear infinite;
-}
-
-.marquee.reverse {
-  animation: marquee-reverse 20s linear infinite;
-  flex-direction: row-reverse ;
-}
-
-.review-card {
-  width: 300px;
-  margin: 0 10px;
-  padding: 20px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 12px;
-  background-color: rgba(255, 255, 255, 0.8);
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  transition: background-color 0.3s;
-}
-
-.paused {
-  animation-play-state: paused;
-}
-
-.review-card:hover {
-  background-color: rgba(0, 0, 0, 0.05);
-  animation-play-state: paused;  
-   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
-  transform: translateY(-5px);
-  outline: #059dff solid 1px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.review-header {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-
-.avatar {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-}
-
-.review-name {
-  font-weight: 600;
-  font-size: 1rem;
-}
-
-.review-username {
-  font-size: 0.875rem;
-  color: rgba(0, 0, 0, 0.6);
-  display: -webkit-box;
-  -webkit-line-clamp: 5;  
-  -webkit-box-orient: vertical;
-  white-space: normal;
-  line-height: unset;
-  text-align: left;
-}
-
-
-.review-body {
-  font-size: 0.875rem;
-  color: #555555;
-  line-height: 1.5;
-  margin: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 5;  
-  -webkit-box-orient: vertical;
-  white-space: normal;
-}
-
-@keyframes marquee {
-  from {
-    transform: translateX(100%);
-  }
-  to {
-    transform: translateX(-100%);
-  }
-}
-
-@keyframes marquee-reverse {
-  from {
-    transform: translateX(-100%);
-  }
-  to {
-    transform: translateX(100%);
-  }
-}
-
-/*End of marquee styling*/
-
 .portfolio-frl .gallery .items .cont {
   margin-bottom: 30px;
 }
@@ -9381,3 +9226,166 @@ section.next-prog.section-padding {
 .custom-container {
   max-width: 1200px; /* Adjust the width as needed */
 }
+
+/* New styles for `image-container` */
+.image-container {
+  position:relative; /* Bootstrap relative positioning*/
+  overflow:hidden;  /*Bootstrap overflow hidden*/
+  height: 500px; /* Adjust height*/
+  width: 100%;   /* Full width of the container*/
+  display: flex;
+  justify-content: top;
+  align-items: top;
+  background-color: #f0f0f0;
+  border-radius: 8px; 
+
+  img {
+    width:100;        /* Bootstrap full width*/
+    height:auto;       /*Bootstrap auto height*/
+    object-fit: contain;
+    transform: translateY(0); /* Initial position*/
+    transition: transform 14.952s ease, 15.00s ease; /* Hover effect transition*/
+    opacity: 0.9;
+  }
+
+  &:hover img {
+    transform: translateY(-850px); /* Move image upwards*/
+    opacity: 1;
+  }
+  &:hover{
+    box-shadow: 0px 8px 15px rgba(0,0,0,0.3);
+    transform: scale(1.02);
+    border-radius: 8px;
+    outline: #059dff solid 1px;
+  } 
+}
+/*end of new style for image-container*/
+
+
+
+
+/*Start of marquee styling*/
+.marquee-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  gap: 20px;
+  position: relative;
+}
+
+.marquee {
+
+  padding-top: 10;
+  margin: 5px;
+  padding: 10px;
+  gap: 1.5rem;
+  white-space: nowrap;
+  flex-shrink: 0;
+  display: flex;
+  animation: marquee 40s linear infinite;
+}
+
+.marquee.reverse {
+  animation: marquee-reverse 40s linear infinite;
+  flex-direction: row-reverse ;
+}
+
+.review-card {
+  width: 300px;
+  margin: 0 10px;
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  transition: background-color 0.3s;
+}
+
+.paused {
+  animation-play-state: paused;
+}
+
+.review-card:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  animation-play-state: paused;  
+   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+  outline: #059dff solid 1px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.review-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.review-name {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.review-username {
+  font-size: 0.875rem;
+  color: rgba(0, 0, 0, 0.6);
+  display: -webkit-box;
+  -webkit-line-clamp: 5;  
+  -webkit-box-orient: vertical;
+  white-space: normal;
+  line-height: unset;
+  text-align: left;
+}
+
+
+.review-body {
+  font-size: 0.875rem;
+  color: #555555;
+  line-height: 1.5;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;  
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(calc(-100%));
+  }
+}
+
+@keyframes marquee-reverse {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+.marquee.paused {
+  animation-play-state: paused;
+}
+
+.reverse {
+  animation-direction: reverse;
+}
+
+/*End of marquee styling*/
