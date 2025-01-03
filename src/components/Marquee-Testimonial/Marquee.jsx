@@ -50,48 +50,55 @@ const testimonials = [
     details: "Ecommerce Store",
     text: "The ecommerce platform Ocean Technolab built was flawless. It has provided our customers with a much better online shopping experience.",
   },
-  
 ];
 
 const Marquee = () => {
-  const [isHovered,setIsHovered] = useState(false);
+  const [isHovered, setIsHovered] = useState(false);
   const marqueeRef = useRef(null);
 
-  useEffect(()=> {
+  useEffect(() => {
     const cloneItems = () => {
-      if (marqueeRef.current){
+      if (marqueeRef.current) {
+        const containerWidth = marqueeRef.current.clientWidth;
         const rows = marqueeRef.current.children;
-        Array.from(rows).forEach((row)=>{
 
+        Array.from(rows).forEach((row) => {
           const rowWdith = row.scrollWidth;
-          const containerWidth = marqueeRef.current.clientWidth;
-          const repeatCount = Math.ceil(containerWidth / rowWdith) + 1;
-          
-          row.innerHTML += row.innerHTML.repeat(repeatCount);
+          const repeatCount = Math.ceil(containerWidth / rowWdith) + 3;
+
+          row.setAttribute("data-repeat", repeatCount);
         });
       }
     };
     cloneItems();
+    window.addEventListener("resize", cloneItems);
+    return () => window.removeEventListener("resize", cloneItems);
   }, []);
 
   const handleHover = (hovering) => {
     setIsHovered(hovering);
   };
- 
-      const renderRow = (row,rowIndex)=> (
-        <div
-          key={rowIndex}
-          // ref={(el) => (rowRefs.current[rowIndex] = el)}
-          className={classNames(
-            "marquee-row",
-            rowIndex % 2 === 0 ? "marquee-left" : "marquee-right",
-            { paused : isHovered }
-          )}
-          onMouseEnter={()=> handleHover(true)}
-          onMouseLeave={()=> handleHover(false)}
-        >
-          {row.map((item, i) => (
-            <div key={i} className="testimonial-item">
+
+  const renderRow = (row, rowIndex) => {
+    const repeatCount =
+      parseInt(
+        marqueeRef.current?.children[rowIndex]?.getAttribute("data-repeat")
+      ) || 1;
+
+    return (
+      <div
+        key={rowIndex}
+        className={classNames(
+          "marquee-row",
+          rowIndex % 2 === 0 ? "marquee-left" : "marquee-right",
+          { paused: isHovered }
+        )}
+        onMouseEnter={() => handleHover(true)}
+        onMouseLeave={() => handleHover(false)}
+      >
+        {Array.from({ length: repeatCount }, (_, idx) =>
+          row.map((item, i) => (
+            <div key={`${i}-${idx}`} className="testimonial-item">
               <div className="image-cont">
                 <img src={item.img} alt={item.name} />
               </div>
@@ -99,22 +106,22 @@ const Marquee = () => {
               <span className="author-details">{item.details}</span>
               <p>{item.text}</p>
             </div>
-          ))}
-        </div>
-      );
+          ))
+        )}
+      </div>
+    );
+  };
 
+  const half = Math.ceil(testimonials.length / 2);
+  const firstRow = testimonials.slice(0, half);
+  const secondRow = testimonials.slice(half);
 
-const half = Math.ceil(testimonials.length / 2)
-const firstRow = testimonials.slice(0, half);
-const secondRow = testimonials.slice(half);
-
-return (
-  <div className="marquee-container" ref={marqueeRef}>
-    {renderRow(firstRow,0)}
-    {renderRow(secondRow,1)}
-  </div>
-);
-
+  return (
+    <div className="marquee-container" ref={marqueeRef}>
+      {renderRow(firstRow, 0)}
+      {renderRow(secondRow, 1)}
+    </div>
+  );
 };
 
 export default Marquee;

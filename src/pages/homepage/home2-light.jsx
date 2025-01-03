@@ -7,10 +7,13 @@ import CallToAction from "../../components/Call-to-action/call-to-action";
 import Footer from "../../components/Footer/footer";
 import LightTheme from "../../layouts/Light";
 import Portfolio from "../../components/Portfolio/portfolio";
-{/*import FullTestimonials from "../../components/Full-testimonials/full-testimonials";*/}
+{
+  /*import FullTestimonials from "../../components/Full-testimonials/full-testimonials";*/
+}
 import Team2 from "../../components/Team2/team2";
 import Blogs2 from "../../components/blogs/Blogs2/blogs2";
-import Marquee from "../../components/Marquee-Testimonial/Marquee";
+// import Marquee from "../../components/Marquee-Testimonial/Marquee";
+import MarqueeDemo from "../../components/Marquee-Testimonial/MarqueeDemo";
 
 const Homepage2 = () => {
   const navbarRef = React.useRef(null);
@@ -38,8 +41,9 @@ const Homepage2 = () => {
       <Services style="4item" />
       <Video2 />
       <Portfolio grid={3} filterPosition="center" />
-      <Marquee />
-      
+      <MarqueeDemo></MarqueeDemo>
+      {/* <Marquee /> */}
+
       {/*<FullTestimonials noPadding />*/}
       <Team2 />
       <Blogs2 />
