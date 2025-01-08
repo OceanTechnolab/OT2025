@@ -12,7 +12,9 @@ import Team2 from "../../components/Team2/team2";
 import Blogs2 from "../../components/blogs/Blogs2/blogs2";
 // import Marquee from "../../components/Marquee-Testimonial/Marquee";
 // import MarqueeDemo from "../../components/Marquee-Testimonial/MarqueeDemo";
-import StarBorder from "../../components/Star-Border/StarBorder";
+import StarBorder from "../../components/StarBorder/StarBorder";
+// import StarBorder from "../../components/StarBorder/StarBorder";
+import AnimatedContainer from "../../components/Star-Border/AnimatedContainer";
 
 const Homepage2 = () => {
   const navbarRef = React.useRef(null);
@@ -39,9 +41,16 @@ const Homepage2 = () => {
       <Intro2 />
       <Services style="4item" />
       <Video2 />
-      <StarBorder as="button" className="custom-class" color="white" speed="6s">
-        <p className="star-text">Hello World</p>
-      </StarBorder>
+      <AnimatedContainer
+        duration={500}
+        style={{
+          width: "70%",
+          margin: "16px 0px 0px",
+          height: "200px",
+          backgroundColor: "lightcoral",
+          borderRadius: "9px",
+        }}
+      ></AnimatedContainer>
       <Portfolio grid={3} filterPosition="center" />
       <FullTestimonials noPadding />
       <Team2 />

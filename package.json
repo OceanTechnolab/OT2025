@@ -13,6 +13,7 @@
     "deploy": "gh-pages -d out"
   },
   "dependencies": {
+    "@react-spring/web": "^9.7.5",
     "axios": "^1.7.8",
     "caniuse-lite": "^1.0.30001686",
     "formik": "^2.4.6",
