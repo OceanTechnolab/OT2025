@@ -2,7 +2,6 @@ import React from 'react';
 import Jenga from '../components/Oceanverse/Jenga/jenga';
 import LightTheme from '../layouts/Light';
 import Navbar from "../components/Navbar/navbar";
-import Footer from "../components/Footer/footer";
 
 const JengaPage = () => {
   const navbarRef = React.useRef(null);
