@@ -9,6 +9,13 @@ const JengaPage = () => {
   const logoRef = React.useRef(null);
 
   React.useEffect(() => {
+    document.body.style.overflow = 'hidden';
+    return () => {
+      document.body.style.overflow = 'auto';
+    };
+  }, []);
+
+  React.useEffect(() => {
     var navbar = navbarRef.current,
       logo = logoRef.current;
     if (window.pageYOffset > 300) {
