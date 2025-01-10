@@ -4,6 +4,7 @@ import Link from "next/link";
 import appData from "../../data/app.json";
 import { handleDropdown, handleMobileDropdown } from "../../common/navbar";
 
+// Navbar component definition
 const Navbar = ({ lr, nr, theme }) => {
   return (
     <nav
@@ -13,6 +14,7 @@ const Navbar = ({ lr, nr, theme }) => {
       }`}
     >
       <div className="container">
+        {/* Logo */}
         <Link href="/" className="logo">
           {theme ? (
             theme === "themeL" ? (
@@ -25,6 +27,7 @@ const Navbar = ({ lr, nr, theme }) => {
           )}
         </Link>
 
+        {/* Mobile menu toggle button */}
         <button
           className="navbar-toggler"
           type="button"
@@ -40,23 +43,29 @@ const Navbar = ({ lr, nr, theme }) => {
           </span>
         </button>
 
+        {/* Navbar links */}
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item dropdown" onClick={handleDropdown}>
               <div className="nav-item">
+                {/* Link to Home page */}
                 <Link href={`/`} className="nav-link">Home</Link>
               </div>
             </li>
             <li className="nav-item">
+              {/* Link to About Us page */}
               <Link href={`/About`} className="nav-link">About Us</Link>
             </li>
             <li className="nav-item">
+              {/* Link to Our Work page */}
                 <Link href={`/Our-Work`} className="nav-link">Our Work</Link>
             </li>
             <li className="nav-item">
+              {/* Link to Blog page */}
               <Link href={`/Blog`} className="nav-link">Blog</Link>
             </li>
             <li className="nav-item">
+              {/* Link to Contact page */}
               <Link href={`/Contact`} className="nav-link">Contact</Link>
             </li>
             <li className="nav-item dropdown" onClick={handleDropdown}>
@@ -70,6 +79,7 @@ const Navbar = ({ lr, nr, theme }) => {
                 OceanVerse
               </span>
               <div className="dropdown-menu">
+                {/* Link to Stack It Up! page */}
                 <Link href={`/Stack-It-Up`} className="dropdown-item">Stack It Up!</Link>
               </div>
             </li>
