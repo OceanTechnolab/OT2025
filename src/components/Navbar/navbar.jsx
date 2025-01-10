@@ -73,6 +73,20 @@ const Navbar = ({ lr, nr, theme }) => {
             <li className="nav-item">
               <Link href={`/contact-us`} className="nav-link">Contact</Link>
             </li>
+            <li className="nav-item dropdown" onClick={handleDropdown}>
+              <span
+                className="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                OceanVerse
+              </span>
+              <div className="dropdown-menu">
+                <Link href={`/jenga`} className="dropdown-item">Stack It Up!</Link>
+              </div>
+            </li>
           </ul>
         </div>
       </div>
