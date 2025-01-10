@@ -53,6 +53,12 @@ const Navbar = ({ lr, nr, theme }) => {
             <li className="nav-item">
                 <Link href={`/Our-Work`} className="nav-link">Our Work</Link>
             </li>
+            <li className="nav-item">
+              <Link href={`/Blog`} className="nav-link">Blog</Link>
+            </li>
+            <li className="nav-item">
+              <Link href={`/contact-us`} className="nav-link">Contact</Link>
+            </li>
             <li className="nav-item dropdown" onClick={handleDropdown}>
               <span
                 className="nav-link dropdown-toggle"
@@ -61,17 +67,11 @@ const Navbar = ({ lr, nr, theme }) => {
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                Blog
+                OceanVerse
               </span>
               <div className="dropdown-menu">
-                <Link href={`/blog/blog-light`} className="dropdown-item">Blog Standerd</Link>
-                <Link href={`/blog-list/blog-list-light`} className="dropdown-item">Blog List</Link>
-                <Link href={`/blog-grid/blog-grid-light`} className="dropdown-item">Blog Grid</Link>
-                <Link href={`/blog-details/blog-details-light`} className="dropdown-item">Blog Details</Link>
+                <Link href={`/Stack-It-Up`} className="dropdown-item">Stack It Up!</Link>
               </div>
-            </li>
-            <li className="nav-item">
-              <Link href={`/contact-us`} className="nav-link">Contact</Link>
             </li>
           </ul>
         </div>
