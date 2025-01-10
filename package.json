@@ -13,6 +13,7 @@
     "deploy": "gh-pages -d out"
   },
   "dependencies": {
+    "@splinetool/react-spline": "^4.0.0",
     "axios": "^1.7.9",
     "caniuse-lite": "^1.0.30001692",
     "formik": "^2.4.6",
