@@ -36,7 +36,6 @@ const JengaPage = () => {
     <LightTheme>
       <Navbar nr={navbarRef} lr={logoRef} theme="themeL" />
       <Jenga />
-      <Footer />
     </LightTheme>
   );
 };
