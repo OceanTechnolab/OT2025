@@ -13,7 +13,7 @@ const JengaPage = () => {
     return () => {
       document.body.style.overflow = 'auto';
     };
-  }, []);
+}, []);
 
   React.useEffect(() => {
     var navbar = navbarRef.current,
