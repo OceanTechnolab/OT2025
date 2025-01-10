@@ -11,7 +11,6 @@ import AboutIntro from "../components/About-intro";
 import LightTheme from '../layouts/Light'
 import Team from "../components/Team/team";
 import MinimalArea from "../components/Minimal-Area/minimal-area";
-import Jenga from "../components/Oceanverse/Jenga/jenga";
 
 const About = () => {
  const navbarRef = React.useRef(null);
@@ -45,7 +44,6 @@ const About = () => {
       <MinimalArea />
       <Clients theme="light" />
       <CallToAction />
-      <Jenga />
       <Footer />
     </LightTheme>
   );
