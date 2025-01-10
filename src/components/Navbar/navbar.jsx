@@ -84,7 +84,7 @@ const Navbar = ({ lr, nr, theme }) => {
                 OceanVerse
               </span>
               <div className="dropdown-menu">
-                <Link href={`/jenga`} className="dropdown-item">Stack It Up!</Link>
+                <Link href={`/Jenga`} className="dropdown-item">Stack It Up!</Link>
               </div>
             </li>
           </ul>
