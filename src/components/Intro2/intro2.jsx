@@ -19,7 +19,7 @@ const Intro2 = ({ sliderRef }) => {
               Transform your ideas into reality with our expert team by your side. From stunning websites to cutting-edge mobile apps and impactful digital marketing, we craft tailored solutions with a passion for excellence and a promise of timely delivery.
               </p>
               <Link
-                href={`/about/about-light`}
+                href={`/About`}
                 className="butn bord curve mt-30"
               >
                 <span>About Us</span>
