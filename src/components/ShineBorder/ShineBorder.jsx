@@ -5,7 +5,7 @@ import { cn } from "../../lib/utils";
 
 const ShineBorder = ({
   borderRadius = 16,
-  borderWidth = 2,
+  borderWidth = 2.5,
   duration = 10,
   color = ["#ff0000", "#00ff00", "#0000ff"],
   className,
