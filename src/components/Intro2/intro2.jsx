@@ -1,8 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
-import React from 'react'
-import Link from 'next/link'
+import React from "react";
+import Link from "next/link";
 import IconCloud from "../../components/IconCloud/IconCloud";
 import iconSlugs from "../../data/iconSlugs";
+import { ShineBorder } from "../ShineBorder/ShineBorder";
 
 const Intro2 = ({ sliderRef }) => {
   return (
@@ -14,20 +15,24 @@ const Intro2 = ({ sliderRef }) => {
               <div className="sub-title mb-5">
                 <h6>Reimagine Your Digital Future</h6>
               </div>
-              <h1 className="mb-10 fw-600">Your Trusted Partner in Software Innovation</h1>
+              <h1 className="mb-10 fw-600">
+                Your Trusted Partner in Software Innovation
+              </h1>
               <p>
-              Transform your ideas into reality with our expert team by your side. From stunning websites to cutting-edge mobile apps and impactful digital marketing, we craft tailored solutions with a passion for excellence and a promise of timely delivery.
+                Transform your ideas into reality with our expert team by your
+                side. From stunning websites to cutting-edge mobile apps and
+                impactful digital marketing, we craft tailored solutions with a
+                passion for excellence and a promise of timely delivery.
               </p>
-              <Link
-                href={`/About`}
-                className="butn bord curve mt-30"
-              >
-                <span>About Us</span>
-              </Link>
+              <ShineBorder>
+                <Link href={`/About`} className="">
+                  <span>About Us</span>
+                </Link>
+              </ShineBorder>
             </div>
           </div>
           <div className="col-lg-6">
-          <IconCloud iconSlugs={iconSlugs} />
+            <IconCloud iconSlugs={iconSlugs} />
           </div>
         </div>
       </div>
@@ -36,4 +41,4 @@ const Intro2 = ({ sliderRef }) => {
   );
 };
 
-export default Intro2
+export default Intro2;
