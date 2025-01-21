@@ -9,6 +9,9 @@ import LightTheme from "../../layouts/Light";
 import Portfolio from "../../components/Portfolio/portfolio";
 import FullTestimonials from "../../components/Full-testimonials/full-testimonials";
 import Team2 from "../../components/Team2/team2";
+import FreelancreIntro from "../../components/Freelancre-intro/freelancre-intro";
+import SkillsCircle from "../../components/Skills-circle/skills-circle";
+import Works2 from "../../components/Works2/works2";
 
 const Homepage = () => {
   const navbarRef = React.useRef(null);
@@ -40,6 +43,7 @@ const Homepage = () => {
       <Team2 />
       <CallToAction />
       <Footer />
+      
     </LightTheme>
   );
 };
