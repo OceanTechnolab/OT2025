@@ -3,7 +3,6 @@ import LightTheme from "../layouts/Light";
 import Navbar from "../components/Navbar/navbar";
 import Footer from "../components/Footer/footer";
 import WorksHeader from "../components/Works-header/works-header";
-import WorksStyle2 from "../components/Works-style2/works-style2";
 
 const Works2Light = () => {
   const fixedHeader = React.useRef(null);
