@@ -27,7 +27,7 @@ const Team = () => {
                 We help to create visual strategies.
               </h3>
               <p>
-                We at OCEAN TECHNOLAB create award-winning websites, remarkable brands
+                We at OCEAN TECHNOLAB create award-winning websites & Apps, Also remarkable brands
                 and cutting-edge apps.Nullam imperdie.
               </p>
               <div className="skills-box mt-40">
